@@ -1,3 +1,11 @@
 Mechical
 =======
-asdfasdf
+
+props
+-----
+
+we have four three-blade props.
+
+Frame
+-----
+Our frame is lasercut from cardboard and assembled with super glue. 
