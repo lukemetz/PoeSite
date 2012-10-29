@@ -1,6 +1,10 @@
 Computation
 ===========
 
+Camera
+------
+We will mount a small, lightweight webcam on our quadcopter that will allow us to sense where the quadcopter is and relay that information to our raspberry pi through a usb connection. 
+
 Rasberry Pi
 -----------
 The main computation for our project takes place on a Rasberry Pi. This device is a small computer. It has 256 mb of ram and can be over-clocked to run at 1 GHz.
