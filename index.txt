@@ -1,15 +1,18 @@
 /*
-Title: Team Piquopter
+Title: Team PiQuopter
 Description: A team of engineering students build an autonomous quodcopter.
 */
 
 #Goals
 
-##- Flight
-We will need to balance the weight of the payload on the quadcopter with appropriate motors and a suitable battery such that it will be able to take off.
+##Flight
+Our first goal is to create a quadcopter capable of flying. We will need to balance the weight of the quadcopter with appropriate motors and a suitable battery in order to enable it to take off.
 
-##- RC Control
-In order to control our quodcopter when it's not flying autonomously, we will have RC override. 
+##RC Control
+Next we will impliment RC control, so that we can fly and tune our quodcopter before the autonomous flight code has been written. This will also enable us to override the quadcopter at any point if we believe that it is doing something dangerous or undesirable when flying autonomously.
 
-##- Image Processing
-The quodcopter will have an onboard webcam to survey its surroundings. 
+##Image Processing
+Once we get the quadcopter up and flying, we will begin to work on the onboard image processing that will enable the quadcopter to sense its surroundings and act based on the visual feedback it gets. To do this, our quodcopter will have an onboard webcam to survey its surroundings. The image data from this webcam will then be processed by a Raspberry Pi (a type of mini computer) onboard the quadcopter.
+
+##Locating QR Codes
+Finally, we will use the processed image data to enable the quadcopter to autonomously locate and go to simple color-block QR codes. Ultimately we would like the quadcopter to be able to locate and land on a charging station after a fixed period of flight using a QR code on the charging station and be able to track a moving QR code (on a person or another moving object).
