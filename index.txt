@@ -3,10 +3,6 @@ Title: Team Piquopter
 Description: A team of engineering students build an autonomous quodcopter.
 */
 
-Team Piquopter
-===============
-A team of engineering students building an autonomous quodcopter in *9 weeks* with under *$250*.
-
 #Goals
 
 ##- Flight
