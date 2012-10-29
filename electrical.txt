@@ -9,7 +9,7 @@ We purchased the HobbyKing Multi-Rotor Control Board V2.1 with an Atmega168PA mi
 Batteries
 ---------
 To power our quadcopter, we have a 3300mAh 3-cell lithium polymer battery, that will give us about 8-10 minutes of flight. We have a regulator to allocate power both to our small electronics (raspberry pi and controller board) and our motors.
-![Our Flight Controller](battery.jpg)
+![](%base_url%/content/battery.jpg)
 
 RC Control
 ----------
