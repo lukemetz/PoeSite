@@ -1,0 +1,1 @@
+We will mount a small, lightweight webcam on our quadcopter that will allow us to sense where the quadcopter is and relay that information to our raspberry pi through a usb connection. 
