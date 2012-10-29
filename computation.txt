@@ -1,0 +1,17 @@
+Computation
+===========
+
+Rasberry Pi
+-----------
+The main computation for our project takes place on a Rasberry Pi. This device is a small computer. It has 256 mb of ram and can be over-clocked to run at 1 GHz.
+
+In its current form, it is running Raspbian, a distribution of linux based off of Debian. 
+
+Our Pi will have a number of usb devices attached to it. The first is a wifi receiver. This will allow us to communicate over the internet as well as for it to stream data back to us. Secondly it has a webcamera attached.
+
+OpenCV
+------
+
+Our device will also be running a program of our making to control the copter to do different things. This program will use OpenCV, a open source image processing library, to take input from the webcamera and react.
+
+Our first steps in creating this program is to track QR code like images. These images will always be rectangular. Using OpenCV, we can locate our image inside 
