@@ -1,0 +1,21 @@
+About Us
+=========
+
+We are a group of sophmore engineering students at Olin College of engineering.
+
+Heather Boortz
+--------------
+Heather likes unicycling
+
+Kaitlin Gallagher
+-----------------
+Kaitlin likes Doctor Who
+
+Luke Metz
+--------
+Luke likes pretzels
+
+
+Lyra Silverwolf
+---------------
+Lyra likes sailbot
