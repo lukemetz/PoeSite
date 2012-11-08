@@ -1,0 +1,7 @@
+#November 8, 2012
+
+
+Our first design review went very well last Monday and now we are ready to make a second, hopefully flyable, prototype. We added landing legs, a battery mount, wire slots, and a better motor mount as well as various minor tweaks to the original CAD.
+
+The electrical system is also going well. We ordered connector pieces and are working on connecting the motors and ESCs (electronic speed controllers) to power. 
+
