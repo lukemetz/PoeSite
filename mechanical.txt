@@ -1,11 +1,11 @@
 Mechical
 =======
 
-props
------
-
-we have four three-blade props.
-
 Frame
 -----
-Our frame is lasercut from cardboard and assembled with super glue. 
+
+The frame consists of three sections: a center base for the control board and other electronits, four arms, and a motor mounting box at the end of each arm. All parts are laser-cut from corrigated cardboard. 
+
+Props
+-----
+We have four four-blade props.
