@@ -4,12 +4,13 @@ Description: A team of engineering students building an autonomous quodcopter.
 */
 
 #Team PiQuapter
-We're a team of four engineering students taking Principles of Engineering at Olin College of Engineering. Our project is building an autonomous quodcopter that will be capable of identifying and responding to QR codes. In order to handle onboard image processing, the quodcopter will utilize a Raspberry Pi (a powerful minicomputer), giving it the name PiQuoptor. 
+We are a team of four engineering students taking Principles of Engineering at Olin College of Engineering. Our team's project is to build an autonomous quodcopter that will be capable of identifying and responding to QR codes. In order to handle onboard image processing, the quodcopter will utilize a Raspberry Pi (a powerful minicomputer), giving it the name **PiQuoptor**. 
+
 
 #Goals
 
 ##Flight
-Our first goal is to create a quadcopter capable of flying. We will need to balance the weight of the quadcopter with appropriate motors and a suitable battery in order to enable it to take off.
+Our first goal is to design a quadcopter capable of flying. This requires balencing the lift strength, determend by the props, motors, and battery, with the weight of those components. 
 
 ##RC Control
 Next we will impliment RC control, so that we can fly and tune our quodcopter before the autonomous flight code has been implemented. This will also enable us to override the quadcopter at any point if we believe that it is doing something dangerous or undesirable when flying autonomously.
