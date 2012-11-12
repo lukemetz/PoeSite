@@ -1,11 +1,21 @@
 Mechical
 =======
 
-Frame
------
+Material
+--------
+We chose to make our quadcopter out of corrigated cardboard. We chose to use cardboard because it is a cheap lightweight material. Because we are using cardboard, we decided to employ a lasercutter to cut out our frame. With these two technologies we can easily iterate and prototype our frame design. 
 
-The frame consists of three sections: a center base for the control board and other electronits, four arms, and a motor mounting box at the end of each arm. All parts are laser-cut from corrigated cardboard. 
+The one downfall to corrigated cardboard is its strength. In certain directions, with the corrigations, cardboard is incredibly weak. In the other directions though it is quite strong. When designing parts we constantly have to think about this.
+
+
+Frame Design
+------------
+
+The frame consists of three sections: a center base for the control board and other electronits, four arms, and a motor mounting box at the end of each arm.
+
+
 
 Props
 -----
-We have four four-blade props.
+We have four three-blade props. There will be two counter-rotating and two regularly rotating props. This will balance out the rotation of the copter.
+
