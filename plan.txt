@@ -1,0 +1,24 @@
+/*
+Title: The Plan
+Description: Our original goals for the project
+*/
+
+The Plan
+=======
+
+Goals
+------
+
+Our vision at the start of the project was to have a quadcopter that could:
+
+* Fly under RC control
+* Autonomously compleate two tasks:
+    - follow a pre-defined route
+    - identify and follow commands given by QR codes
+* Reliably switch to back RC override at any time
+
+Budget and intial parts list
+--------------------------
+
+
+
