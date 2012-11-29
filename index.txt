@@ -3,20 +3,20 @@ Title: Team PiQuopter
 Description: A team of engineering students building an autonomous quodcopter.
 */
 
-#Team PiQuapter
-We are a team of four engineering students taking Principles of Engineering at Olin College of Engineering. Our team's project is to build an autonomous quodcopter that will be capable of identifying and responding to QR codes. In order to handle onboard image processing, the quodcopter will utilize a Raspberry Pi (a powerful minicomputer), giving it the name **PiQuoptor**. 
+#Team PiQuopter
+We are a team of four engineering students taking Principles of Engineering at Olin College of Engineering. Our team's project is to build an autonomous quadcopter that will be capable of identifying and responding to QR codes. In order to handle onboard image processing, the quodcopter will utilize a Raspberry Pi (a powerful minicomputer), giving it the name **PiQuoptor**. 
 
 
 #Goals
 
 ##Flight
-Our first goal is to design a quadcopter capable of flying. This requires balencing the lift strength, determend by the props, motors, and battery, with the weight of those components. 
+Our first goal is to design a quadcopter capable of flying. This requires balancing the lift strength, determined by the props, motors, and battery, with the weight of those components. 
 
 ##RC Control
 Next we will impliment RC control, so that we can fly and tune our quodcopter before the autonomous flight code has been implemented. This will also enable us to override the quadcopter at any point if we believe that it is doing something dangerous or undesirable when flying autonomously.
 
 ##Image Processing
-Once we get the quadcopter up and flying, we will begin to work on the onboard image processing that will enable the quadcopter to sense its surroundings and act based on the visual feedback it gets. To do this, our quodcopter will have an onboard webcam to survey its surroundings. The image data from this webcam will then be processed by a Raspberry Pi (a type of mini computer) onboard the quadcopter.
+Once we get the quadcopter up and flying, we will begin to work on the onboard image processing that will enable the quadcopter to sense its surroundings and act based on the visual feedback it gets. To do this, our quadcopter will have an onboard webcam to survey its surroundings. The image data from this webcam will then be processed by a Raspberry Pi (a type of mini computer) onboard the quadcopter.
 
 ##Locating QR Codes
 Finally, we will use the processed image data to enable the quadcopter to autonomously locate and go to simple color-block QR codes. Ultimately we would like the quadcopter to be able to locate and land on a charging station after a fixed period of flight using a QR code on the charging station and be able to track a moving QR code (on a person or another moving object).
