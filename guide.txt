@@ -56,6 +56,9 @@ Rasberry PI 1x,
 Web Camera 1x,
 	Really any usb webcam with linux support will work. We used [Microsoft-LifeCam-VX-5000](www.amazon.com/Microsoft-LifeCam-VX-5000-Webcam-Accent/dp/B0015BYS74/ref=sr_1_10?s=electronics&ie=UTF8&qid=1350853397&sr=1-10&keywords=camera+microsoft) for $12.74.
 
+Wifi Card 1x,
+	Any linux supported wifi card should work. We used [http://www.amazon.com/gp/product/B003X26PMO/ref=oh_details_o02_s00_i00] at $13.06.
+
 ### Off-Board ###
 
 AVR Programming device, 1x
@@ -73,15 +76,17 @@ RC Transmitter, 1x
 Estimated Cost
 ==============
 /*
-14.56*4+11.90*4+2*4+12.99+9.99+1.99+26.72+3.77+1.65+2.99*2+3.64+1.59*2+25+12.74 = 221.49
+14.56*4+11.90*4+2*4+12.99+9.99+1.99+26.72+3.77+1.65+2.99*2+3.64+1.59*2+25+12.74+13.06 = 234.55
 
 */
-The minimum need parts assuming you have an avr programmer and an rc receiver and batter charger is: $211.5 not counting shipping.
+The minimum need parts assuming you have an avr programmer and an rc receiver and batter charger is: $234.55 not counting shipping.
 /*
-14.56*5+11.90*5+2*12+12.99+9.99+1.99+26.72+3.77+1.65*2+2.99*2+3.64+1.59*2+25+12.74 = 265.60
+14.56*5+11.90*5+2*12+12.99+9.99+1.99+26.72+3.77+1.65*2+2.99*2+3.64+1.59*2+25+12.74+13.06 = 278.66
 
 */
-In our testing, we found that parts break and its nice to have backups, thus we would suggest getting another motor and speed controller, more Servo Connectors, 2 more sets of props, a spare battery as well as some more cardboard. This would put the total up to 255.61.
+In our testing, we found that parts break and its nice to have backups, thus we would suggest getting another motor and speed controller, more Servo Connectors, 2 more sets of props, a spare battery as well as some more cardboard. This would put the total up to 278.66.
+
+//For our project, we had free access to wire, and some connectors, add this???
 
 Electronics
 -----------
