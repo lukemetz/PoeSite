@@ -42,7 +42,7 @@ Servo Connectors, female to female, 4x,
 	We got a (pack of 5 female female from hobby king)[http://www.hobbyking.com/hobbyking/store/__20958__15CM_Servo_Lead_Extention_JR_with_hook_26AWG_5pcs_bag_.html] at $1.65 that we cut in half.
 
 Power Wire, 2x 6 inches high current pieces,
-	We used ??? AWG [red]http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=9671) and (black)[http://www.hobbyking.com/hobbyking/store/__9672__Turnigy_Pure_Silicone_Wire_10AWG_1mtr_BLACK.html] that can be bought from hobby king at for $2.99 a meter.
+	We used ??? AWG [red](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=9671) and [black](http://www.hobbyking.com/hobbyking/store/__9672__Turnigy_Pure_Silicone_Wire_10AWG_1mtr_BLACK.html) that can be bought from hobby king at for $2.99 a meter.
 
 4mm Bullet Connectors, at least 1 male and 1 female.
 	Casing is nice, so we would suggest (HXT 4mm Gold Connector w/ Protector)[www.hobbyking.com/hobbyking/store/__9283__HXT_4mm_Gold_Connector_w_Protector_10pcs_set_.html] at $3.64.
