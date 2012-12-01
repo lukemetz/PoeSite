@@ -1,0 +1,90 @@
+
+Step By Step Guide
+==================
+
+Materials
+---------
+
+### On-Board ###
+
+Cardboard,
+	the sheet we we used was 32"x20" with a thickness off around 4.1mm. A large clean box should do.
+
+Motors, 4x,
+	we used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbyking.com/hobbyking/store/__18225__Turnigy_D3530_14_1100KV_Brushless_Outrunner_Motor.html) at $14.56 each.
+
+Electronic Speed Controllers (ESC), 4x,
+	we used [TURNIGY Plush 18amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__4312__TURNIGY_Plush_18amp_Speed_Controller.html) at $11.90 each.
+
+Propellors, 2x counter clock wise rotating, 2x clockwise
+	we used [3 bladed 8x4x3 GWS props](http://www.gwsprops.com/3_blade_props.htm) at $2.00 each.
+
+Flight Controller, 1x
+	We used [HobbyKing Multi-Rotor Control Board V2.1](http://www.hobbyking.com/hobbyking/store/__19534__HobbyKing_Multi_Rotor_Control_Board_V2_1_Atmega168PA_.html) at $12.99
+
+Flight Controller Mounting Pads,
+	We got a pack of [Gyro / Flight Controller Mounting Pad](http://www.hobbyking.com/hobbyking/store/__15214__Gyro_Flight_Controller_Mounting_Pad_10pcs_bag_.html) at $1.99 but one can also use double sided tape.
+
+RC Receiver, 1x,
+	We got a [CSRC-RX3000 Spektrum DSM2 Compatible 2.4Ghz 6-Ch Receiver](http://www.amazon.com/gp/product/B005M2YJYO/ref=oh_details_o03_s00_i00) on sale for $9.99. Any 5 or more channel receiver will do though.
+
+SWITCH COMPONENTS
+caps and resistors
+chip
+
+Battery, 1x
+	We used [Turnigy nano-tech 3300mah 3S 25~50C Lipo Pack](http://www.hobbyking.com/hobbyking/store/__11923__Turnigy_nano_tech_3300mah_3S_25_50C_Lipo_Pack.html) at $26.72.
+
+BEC 1x,
+	This is used to power the Rasberry Pi. We used [HobbyKing Micro UBEC 3A / 5v](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=15212) at $3.77.
+
+Servo Connectors, female to female, 4x,
+	We got a (pack of 5 female female from hobby king)[http://www.hobbyking.com/hobbyking/store/__20958__15CM_Servo_Lead_Extention_JR_with_hook_26AWG_5pcs_bag_.html] at $1.65 that we cut in half.
+
+Power Wire, 2x 6 inchs high current pieces,
+	We used ??? gauge [red]http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=9671) and (black)[http://www.hobbyking.com/hobbyking/store/__9672__Turnigy_Pure_Silicone_Wire_10AWG_1mtr_BLACK.html] that can be bought from hobby king at for $2.99 a meter.
+
+4mm Bullet Connectors, at least 1 male and 1 female.
+	Casing is nice, so we would sugjest (HXT 4mm Gold Connector w/ Protector)[www.hobbyking.com/hobbyking/store/__9283__HXT_4mm_Gold_Connector_w_Protector_10pcs_set_.html] at $3.64.
+
+3.5mm Bullet Connectors, at least 12x
+	Avalible in (packs of 10)[http://www.hobbyking.com/hobbyking/store/__68__PolyMax_3_5mm_Gold_Connectors_10_PAIRS_20PC_.html] from hobby king for $1.59.
+
+Rasberry PI 1x,
+	We used one of the older model B 2ith 256mb of ram for $35.00. A model A would work and probably better for $25. They are currently hard to buy, you could place an order from a vendor on [there site](http://www.raspberrypi.org/) and wait a few months, or just get one from [Amazon](http://www.amazon.com/Raspberry-Pi-Model-Revision-512MB/dp/B009SQQF9C/ref=sr_1_1?ie=UTF8&qid=1354330292&sr=8-1&keywords=raspberry+pi).
+
+Web Camera 1x,
+	Really any usb webcam with linux support will work. We used [Microsoft-LifeCam-VX-5000](www.amazon.com/Microsoft-LifeCam-VX-5000-Webcam-Accent/dp/B0015BYS74/ref=sr_1_10?s=electronics&ie=UTF8&qid=1350853397&sr=1-10&keywords=camera+microsoft) for $12.74.
+
+### Off-Board ###
+
+AVR Programming device, 1x
+	We first got [USBasp AVR Programming Device for ATMEL proccessors](http://www.hobbyking.com/hobbyking/store/__21321__USBasp_AVR_Programming_Device_for_ATMEL_proccessors.html) at $4.95.
+	Our board was defective, so we ended up using a [Atmel AVRISP mkII In-System Programmer](http://store.atmel.com/PartDetail.aspx?q=p:10500054) at $34
+
+RC Transmitter, 1x
+	We used the highly overkill [DX8 8CH Transmitter](http://www.spektrumrc.com/Products/Default.aspx?ProdID=SPM8800) at $429.99. All you really need is 5 or more channels.
+
+3 cell Lipo Battery Charger + Power supply
+	Some way to charge your battery.
+	<<INCLUDE CHARGER>>
+
+
+Estimated Cost
+==============
+/*
+14.56*4+11.90*4+2*4+12.99+9.99+1.99+26.72+3.77+1.65+2.99*2+3.64+1.59*2+25+12.74 = 221.49
+
+*/
+The minimium need parts assuming you have an avr programmer and an rc receiver and batter charger is: $211.5 not counting shipping.
+/*
+14.56*5+11.90*5+2*12+12.99+9.99+1.99+26.72+3.77+1.65*2+2.99*2+3.64+1.59*2+25+12.74 = 265.60
+
+*/
+In our testing, we found that parts break and its nice to have backups, thus we would sugjest getting another motor and speed controller, more Servo Connectors, 2 more sets of props, a spair battery as well as some more cardboard. This would put the total up to 255.61.
+
+Electronics
+-----------
+
+Step 1
+------
