@@ -39,16 +39,16 @@ BEC 1x,
 	This is used to power the Raspberry Pi. We used [HobbyKing Micro UBEC 3A / 5v](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=15212) at $3.77.
 
 Servo Connectors, female to female, 4x,
-	We got a (pack of 5 female female from hobby king)[http://www.hobbyking.com/hobbyking/store/__20958__15CM_Servo_Lead_Extention_JR_with_hook_26AWG_5pcs_bag_.html] at $1.65 that we cut in half.
+	We got a [pack of 5 female female from hobby king](http://www.hobbyking.com/hobbyking/store/__20958__15CM_Servo_Lead_Extention_JR_with_hook_26AWG_5pcs_bag_.html) at $1.65 that we cut in half.
 
 Power Wire, 2x 6 inches high current pieces,
 	We used ??? AWG [red](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=9671) and [black](http://www.hobbyking.com/hobbyking/store/__9672__Turnigy_Pure_Silicone_Wire_10AWG_1mtr_BLACK.html) that can be bought from hobby king at for $2.99 a meter.
 
 4mm Bullet Connectors, at least 1 male and 1 female.
-	Casing is nice, so we would suggest (HXT 4mm Gold Connector w/ Protector)[www.hobbyking.com/hobbyking/store/__9283__HXT_4mm_Gold_Connector_w_Protector_10pcs_set_.html] at $3.64.
+	Casing is nice, so we would suggest [HXT 4mm Gold Connector w/ Protector](www.hobbyking.com/hobbyking/store/__9283__HXT_4mm_Gold_Connector_w_Protector_10pcs_set_.html) at $3.64.
 
 3.5mm Bullet Connectors, at least 12x
-	Avalible in (packs of 10)[http://www.hobbyking.com/hobbyking/store/__68__PolyMax_3_5mm_Gold_Connectors_10_PAIRS_20PC_.html] from hobby king for $1.59.
+	Avalible in [packs of 10](http://www.hobbyking.com/hobbyking/store/__68__PolyMax_3_5mm_Gold_Connectors_10_PAIRS_20PC_.html) from hobby king for $1.59.
 
 Rasberry PI 1x,
 	We used one of the older model B with 256mb of ram for $35.00. A model A would work and probably better for $25. They are currently hard to buy, you could place an order from a vendor on [there site](http://www.raspberrypi.org/) and wait a few months, or just get one from [Amazon](http://www.amazon.com/Raspberry-Pi-Model-Revision-512MB/dp/B009SQQF9C/ref=sr_1_1?ie=UTF8&qid=1354330292&sr=8-1&keywords=raspberry+pi).
