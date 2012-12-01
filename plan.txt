@@ -9,20 +9,13 @@ The Plan
 Goals
 ------
 
-Our vision at the start of the project was to have a quadcopter that could:
+Our Initial vision at the start of the project was to have a quadcopter that could:
 
 * Fly under RC control
-* Autonomously compleate two tasks:
-- follow a pre-defined route
-- identify and follow commands given by QR codes
-* Reliably switch to back RC override at any time
+* Fly autonomously
+* Reliably switch to back to RC remotely with the controller
+* Be small, we where hoping for smaller than a dinner plate.
 
-Budget and intial parts list
---------------------------
+After receiving feedback from our professor, we dropped the super small scale and added the ability to do on board image processing with a small Linux based computer called Raspberry Pi. Our copter will be able to preform basic actions such as following a qr code like object, landing in specific locations, stop moving when sensing lights.
 
-+---------+--------+
-|         |        |
-| this    |   is   |
-+---------+--------+
-|   a     |   test |
-+---------+--------+
+And finally, the week before the due date, we have scaled back our goals in terms of what the image processing does.... FILL ME IN.

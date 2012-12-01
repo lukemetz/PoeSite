@@ -10,6 +10,8 @@ Materials
 Cardboard,
 	the sheet we we used was 32"x20" with a thickness off around 4.1mm. A large clean box should do.
 
+Glue
+
 Motors, 4x,
 	we used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbyking.com/hobbyking/store/__18225__Turnigy_D3530_14_1100KV_Brushless_Outrunner_Motor.html) at $14.56 each.
 
@@ -27,6 +29,9 @@ Flight Controller Mounting Pads,
 
 RC Receiver, 1x,
 	We got a [CSRC-RX3000 Spektrum DSM2 Compatible 2.4Ghz 6-Ch Receiver](http://www.amazon.com/gp/product/B005M2YJYO/ref=oh_details_o03_s00_i00) on sale for $9.99. Any 5 or more channel receiver will do though.
+
+Foam block 4x 2 inch by 4 inch chunks,
+	Used for a more durable landing.
 
 SWITCH COMPONENTS
 caps and resistors
@@ -59,6 +64,12 @@ Web Camera 1x,
 Wifi Card 1x,
 	Any linux supported wifi card should work. We used [http://www.amazon.com/gp/product/B003X26PMO/ref=oh_details_o02_s00_i00] at $13.06.
 
+SD Card 1x,
+	We used a 16gb card from [amazon](http://www.amazon.com/AmazonBasics-SDHC-Class-Secure-Digital/dp/B0058GH1IK/ref=sr_1_7?ie=UTF8&qid=1354399638&sr=8-7&keywords=sd+card) at $11.52.
+
+Micro usb cable 1x,
+	It does not need to be long, we used a [six inch cable](http://www.amazon.com/StarTech-com-Inch-Micro-USB-Cable/dp/B003YKX6WM/ref=sr_1_10?s=electronics&ie=UTF8&qid=1354399700&sr=1-10&keywords=micro+usb+cable) at $3.09.
+
 ### Off-Board ###
 
 AVR Programming device, 1x
@@ -76,15 +87,15 @@ RC Transmitter, 1x
 Estimated Cost
 ==============
 /*
-14.56*4+11.90*4+2*4+12.99+9.99+1.99+26.72+3.77+1.65+2.99*2+3.64+1.59*2+25+12.74+13.06 = 234.55
+14.56*4+11.90*4+2*4+12.99+9.99+1.99+26.72+3.77+1.65+2.99*2+3.64+1.59*2+25+12.74+13.06 +11.52 + 3.09= 249.16
 
 */
-The minimum need parts assuming you have an avr programmer and an rc receiver and batter charger is: $234.55 not counting shipping.
+The minimum need parts assuming you have an avr programmer and an rc receiver and batter charger is: $249.16 not counting shipping.
 /*
-14.56*5+11.90*5+2*12+12.99+9.99+1.99+26.72+3.77+1.65*2+2.99*2+3.64+1.59*2+25+12.74+13.06 = 278.66
+14.56*5+11.90*5+2*12+12.99+9.99+1.99+26.72+3.77+1.65*2+2.99*2+3.64+1.59*2+25+12.74+13.06+11.52 + 3.09 = 293.27
 
 */
-In our testing, we found that parts break and its nice to have backups, thus we would suggest getting another motor and speed controller, more Servo Connectors, 2 more sets of props, a spare battery as well as some more cardboard. This would put the total up to 278.66.
+In our testing, we found that parts break and its nice to have backups, thus we would suggest getting another motor and speed controller, more Servo Connectors, 2 more sets of props, a spare battery as well as some more cardboard. This would put the total up to $293.27.
 
 //For our project, we had free access to wire, and some connectors, add this???
 

@@ -1,7 +1,7 @@
 About Us
 =========
 
-We are a group of sophmore engineering students at Olin College of Engineering.
+We are a group of 4 sophomore engineering students at Olin College of Engineering making something awesome for a class called Principles of Engineering.
 
 Heather Boortz
 --------------
@@ -14,7 +14,6 @@ Kaitlin likes Doctor Who
 Luke Metz
 --------
 Luke likes pretzels
-
 
 Lyra Silverwolf
 ---------------
