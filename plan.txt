@@ -13,9 +13,11 @@ Our Initial vision at the start of the project was to have a quadcopter that cou
 
 * Fly under RC control
 * Fly autonomously
-* Reliably switch to back to RC remotely with the controller
-* Be small, we where hoping for smaller than a dinner plate.
+* Reliably switch to back to RC control remotely with the controller
+* Be small- we where hoping for smaller than a dinner plate.
 
-After receiving feedback from our professor, we dropped the super small scale and added the ability to do on board image processing with a small Linux based computer called Raspberry Pi. Our copter will be able to preform basic actions such as following a qr code like object, landing in specific locations, stop moving when sensing lights.
+After receiving feedback from our professor, we dropped the super small scale and added the ability to do on board image processing with a small Linux based computer called a Raspberry Pi. We hoped to enable our quadcopter to preform basic actions such as following a QR code, landing in specific locations, and holding position when it has sensed a light.
 
-And finally, the week before the due date, we have scaled back our goals in terms of what the image processing does.... FILL ME IN.
+We dropped the goal of reacting to light a couple weeks into the project, because it did not relate well to our other goals. We decided that we would rather focus on having a robust and adaptable image processing system rather than trying to incorporate a photoresistor into the system.
+
+The week before the due date we pivoted again and scaled back our goals in terms of the functionality of the image processing.... FILL ME IN.
