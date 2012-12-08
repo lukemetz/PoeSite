@@ -33,9 +33,18 @@ RC Receiver, 1x,
 Foam block 4x 2 inch by 4 inch chunks,
 	Used for a more durable landing.
 
+Cyanoacrylate based glue,
+	Anything will work, the thicker the glue, the easier it is to work with. We used something along the lines of [this](http://www.hobbyking.com/hobbyking/store/__8675__Insta_Cure_Plus_Gap_Filling_CA_1_2_oz.html).
+
+nuts and bolts, 16x sets of 1 nut and 1 bolt,
+	Washers can be used when directly bolting to cardboard, but we found that you did not really need them.
+	TODO find what we used.....
+
 SWITCH COMPONENTS
 caps and resistors
 chip
+PerfBoards
+Opamp
 
 Battery, 1x
 	We used [Turnigy nano-tech 3300mah 3S 25~50C Lipo Pack](http://www.hobbyking.com/hobbyking/store/__11923__Turnigy_nano_tech_3300mah_3S_25_50C_Lipo_Pack.html) at $26.72.
@@ -101,6 +110,52 @@ In our testing, we found that parts break and its nice to have backups, thus we 
 
 Electronics
 -----------
+###Power distributor
 
-Step 1
-------
+
+###RC Override switch
+
+
+
+Frame
+-----
+Our entire frame is made out of laser cut cardboard. Our team was able to fit all of the required parts onto one sheet that could fit in the laser. When designing this sheet, great care was taken to align the parts to match the correlations in the cardboard.
+
+We used a thick Cyanoacrylate based glue to do all of our connections. This gave us quick dry times for speedy construction as well as all of the strength we need.
+
+Images bellow walk though the construction process.
+
+Parts just got back from laser.
+![](%base_url%/content/construction_cardboard/1.jpg)
+Starting to assemble arms.
+![](%base_url%/content/construction_cardboard/2.jpg)
+Bolt motors to cardboard motor mount.
+![](%base_url%/content/construction_cardboard/3.jpg)
+Put some super glue on the threads to lock the nuts in place.
+![](%base_url%/content/construction_cardboard/4.jpg)
+Assemble the other side of arm.
+![](%base_url%/content/construction_cardboard/5.jpg)
+Place other side of arms onto the assembly.
+![](%base_url%/content/construction_cardboard/6.jpg)
+The second arm made. Care must be taken to get orientation correct.
+![](%base_url%/content/construction_cardboard/7.jpg)
+Arms being slid together.
+![](%base_url%/content/construction_cardboard/8.jpg)
+Base assembled.
+![](%base_url%/content/construction_cardboard/9.jpg)
+Side view of base.
+![](%base_url%/content/construction_cardboard/10.jpg)
+Add on battery holder.
+![](%base_url%/content/construction_cardboard/11.jpg)
+Cardboard squares are then glued onto remaining struts for support.
+![](%base_url%/content/construction_cardboard/12.jpg
+Double sided tape/ anti vibration tape to mount the control board to the top of the frame.
+![](%base_url%/content/construction_cardboard/13.jpg)
+Secure the power distributor to the bottom of the copter. This can be as simple as a piece of tape.
+![](%base_url%/content/construction_cardboard/14.jpg)
+Thread the electronic speed controllers through the holes.
+![](%base_url%/content/construction_cardboard/15.jpg)
+Thread the output from the ESCs through the wire routing holes and connect to motors.
+![](%base_url%/content/construction_cardboard/16.jpg)
+Label the propellers according to there spin direction.
+![](%base_url%/content/construction_cardboard/17.jpg)
