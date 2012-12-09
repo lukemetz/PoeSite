@@ -13,12 +13,42 @@ Kaitlin likes Doctor Who
 
 Luke Metz
 --------
-Luke likes pretzels
+Luke is a sophomore at Olin College who is planning to major in a mixture of robotics and computer science.
+His interests in robotics lie in small scale, cheaply manufactured robots.
+He likes all things laser cutter, and has an obsession with cardboard and paper in general.
+In computer science land, he loves to dabble in the field of graphics.
 
 Lyra Silverwolf
 ---------------
 Lyra likes sailbot
 
+
+Thanks!
+==========
+This project could not have been done without the help of many many people:
+
+Amon Millner
+------------
+Our professor for POE. He provided much incite that steered the project forward both in and outside design reviews.
+
+George Herring
+-------------
+The Teaching Assistant for the class, or Ninja as they call them here. Helped with electrical switch and prop selection. Provided helpful comments during class.
+
 Matt Wismer
 -----------
-Matt isn't part of our team
+A fiend who brought all the EE knowledge as well as sanity checks.
+
+Drew Bennett's Lab
+------------------
+
+###Drew Bennett
+Provided us with assistance testing as well as access to many parts and battery charging devices.
+
+###Silas Huges
+The local quadcopter expert, helping us with everything from buying parts, to stabilization.
+
+###Adela Wee
+Charged our batteries for us countless times and answered many a question.
+
+
