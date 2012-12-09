@@ -1,18 +1,49 @@
 Electrical System
 =================
 
-Flight Controller
------------------
+## System Overview
+
+### Flight Controller
 We purchased the HobbyKing Multi-Rotor Control Board V2.1 with an Atmega168PA microcontroller chip that is about 5cm squared and weighs 14.5g. This small board has both a gyroscope and accelerometer that will handle basic balancing of the quadcopter, allowing us to focus our efforts on both the mechanical construction and the autonomy aspects of our quadcopter.
 
 ![Our Flight Controller](%base_url%/content/controllerboard.jpg "Control Board")
 
-Batteries
----------
+### Batteries
 To power our quadcopter, we have a 3300mAh 3-cell lithium polymer battery, that will give us about 8-10 minutes of flight. We have a regulator to allocate power both to our small electronics (raspberry pi and controller board) and our motors.
 
 ![](%base_url%/content/battery.jpg "Lithium Polymer Battery")
 
-RC Control
-----------
-In addition to having autonomous control, we will have an RC override. We will mount an rc transmitter on our quadcopter, allowing us to use an RC receiver whenever we want to. This will allow us to test basic functionality such as turning, hovering, etc. without having to write the autonomy for simple testing.
+### RC Control and Override
+In addition to having autonomous control, we have RC control and RC override. We have mounted an RC receiver on our quadcopter and implemented a switch that allows us to use an RC controller to pilot our quadcopter at any point when the system is running. This allows us to test basic functionality such as turning and hovering and stabilize our quadcopter without having to write the autonomy for simple testing. It also enables us to take back control at any point if we believe the the quadcopter is doing something dangerous while it is autonomous.
+
+![RC Receiver](%base_url%/content/RCcontrol.jpeg "Onboard RC Receiver")
+
+## Electrical Schematic
+
+* a schematic of the switch (fritzing)
+* an overview illustration of all the components in the system (Illustrator)
+* power management (Illustrator)
+
+##Problems Encountered
+###Splitting Battery Power
+One of the first roadblocks we encountered with our electrical system was that we did not think about how we would physically connect the four motor speed controllers and the BEC that would power the Raspberry PI to the battery. We had not ordered connectors for the battery terminals, and we could definitely not solder all of the wires together into the connectors even if we had them.
+
+![Single Joint](%base_url%/content/WireJoint.jpg "The First Solder Joint")
+
+To solve this problem, we asked another Olin professor, Dr. Drew Bennett, for advice. He has a lot of experience with RC controlled aircraft, and he was able to give us connectors from the battery terminals and an idea of how to properly split the power. We ended up soldering thick, high amperage to the battery terminal connectors and then soldering each of the motor speed controllers and the BEC into that wire along its length so that each would be soldered well and each solder joint would only be connecting two things.
+
+![Power Wiring](%base_url%/content/PowerSplitting.jpg "Power Splitting Solution")
+
+###Creating a Switch
+A key function that had to be present on our quadcopter was the ability to switch between RC control and Raspberry Pi control quickly and easily using a switch on the RC controller. This is not only for our own safety when testing the quadcopter, but it is also required by law that autonomous air vehicles have a way to take control remotely.
+
+In the beginning we knew that this feature would exist on the final prototype, but we didn't consider how we would use a RC controller switch to distinguish which 4 control signals to pass out to the flight control board.
+
+We first attempted to use a single pull double push DG189BP JFET switch, because these switches were readily available in Olin's Electrical and Computer Engineering stockroom. However, powering this type of switch required not only the standard ground and 5V that we readily had access to, but also -15V and 15V. Since attempting to magnify the 11.1V that we could draw from the battery would have been excessively complex and taken an unnecessary amount of time, we decided to purchase a quad  2-input multiplexer switch from Digikey instead.
+
+The quad 2-input multiplexer switch did exactly what we wanted it to do; it took in two sets of four inputs and chose which set of four were output to the flight control board based on whether one node was given a high or low voltage.
+
+![Switch](%base_url%/content/Circuit.jpeg "Final Switch Circuit")
+
+### Converting PWM Signal to Voltage
+Next we had to figure out how to convert the variable PWM signal that was output from the RC receiver into a large change in voltage so that we could use one of the switches on the RC controller with the quad 2-input multiplexer switch. To do this we used a low pass filter to flatten the signal into a mostly flat line that moved between about 250mV and about 350mV when the switch on the RC controller was flipped. After that we used a Schmitt trigger to amplify this difference into a change between 0V and 5V using an operational amplifier with a carefully selected negative input voltage. The output of this could then be used to control the quad 2-input multiplexer.
