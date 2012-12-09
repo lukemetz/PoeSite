@@ -42,4 +42,4 @@ We first attempted to use a single pull double push DG189BP JFET switch, because
 The quad 2-input multiplexer switch did exactly what we wanted it to do; it took in two sets of four inputs and chose which set of four were output to the flight control board based on whether one node was given a high or low voltage.
 
 ### Converting PWM Signal to Voltage
-Next we had to figure out how to convert the PWM signal that was the 
+Next we had to figure out how to convert the variable PWM signal that was output from the RC receiver into a large change in voltage so that we could use one of the switches on the RC controller with the quad 2-input multiplexer switch. To do this we used a low pass filter to flatten the signal into a mostly flat line that moved between about 250mV and about 350mV when the switch on the RC controller was flipped. After that we used a Schmitt trigger to amplify this difference into a change between 0V and 5V using an operational amplifier with a carefully selected negative input voltage. The output of this could then be used to control the quad 2-input multiplexer.
