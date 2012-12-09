@@ -20,3 +20,6 @@ Once we get the quadcopter up and flying, we will begin to work on the onboard i
 
 ##Locating QR Codes
 Finally, we will use the processed image data to enable the quadcopter to autonomously locate and go to simple color-block QR codes. Ultimately we would like the quadcopter to be able to locate and land on a charging station after a fixed period of flight using a QR code on the charging station and be able to track a moving QR code (on a person or another moving object).
+
+#Final Product
+Our final product is a cardboard quadcopter capable of flight. RC control and Raspberry Pi control were implemented, as well as a quick and easy way to switch between the two, so the quadcopter can be controlled autonomously with low risk. When in autonomous mode, the quadcopter detects QR codes that give it instructions such as turn or hover, and it can be controlled in a gui using a laptop keyboard.
