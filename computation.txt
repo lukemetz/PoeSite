@@ -9,20 +9,20 @@ Rasberry Pi
 -----------
 The main computation for our project takes place on a Rasberry Pi. This device is a small computer. It has 256 mb of ram and can be over-clocked to run at 1 GHz.
 
-In its current form, it is running Raspbian, a distribution of linux based off of Debian.
+In its current form our Pi is running Raspbian, a distribution of linux based off of Debian.
 
-Our Pi will have a number of usb devices attached to it. The first is a wifi receiver. This will allow us to communicate over the internet as well as for it to stream data back to us. Secondly it has a webcamera attached.
+Our Pi will have a number of usb devices attached to it. The first is a wifi receiver. This will allow us to communicate over the internet as well as stream data back to our computers. Secondly, it has a web camera attached.
 
 OpenCV
 ------
 
-Our device will also be running a program of our making to control the copter to do different things. This program will use OpenCV, a open source image processing library, to take input from the webcamera and react.
+Our rasperry pi runs a program that we wrote to control the copter to perform different actions. This program uses OpenCV, a open source image processing library, to take input from the webcam and react.
 
-Our first steps in creating this program is to track QR code like images. These images will always be rectangular. Using OpenCV, we can locate our image inside
+Our first step in creating this program is to track QR code like images. These images will always be rectangular. Using OpenCV, we can locate our image inside the frame captured from the webcam.
 
 ServoBlaster
 -----------
-Servoblaster is a kernel module developed for the raspberry pi to control servos, or in more specific terms, generate a varying duty cycle signal that ranges from 0-2.5ms pulses with 20ms between each pulse. These pulses correlate to the pulses that standard RC receivers output. Using this module, we can emulate the signals produced by the RC receiver and act just like a human controlling the quadcopter with a controller.
+Servoblaster is a kernel module developed for the raspberry pi to control servos, or in more specific terms, generate a varying duty cycle signal that ranges from 0-2.5ms pulses with 20ms between each pulse. These pulses correlate to the pulses that standard RC receivers output. Using this module, we can emulate the signals produced by the RC receiver and act just like a human using an RC controller to pilot the quadcopter.
 
 Our Code
 --------
@@ -35,10 +35,10 @@ It is responsible for the image processing, autonomous control, and setting up t
 To implement the QR tag tracking, we chose to use a library called Aruco. This library does all of the heavy lifting needed to find these tags in the environment. This functionality is all implemented in main.cpp.
 
 ###Autonomy
-The autonomy part of our code takes the in the found codes from Aruco and does useful things with them. We have implemented a number of basic autonomous features. First we have basic support for centering on QR tags. This algorithm looks at the position of the tag in the image, and then tries to adjust using proportional control. If the code is far to the right side of the image for example, yaw a little bit counterclockwise to center it in the center. The second two autonomous controls were made mainly for demo purposes. The first is a system that reads in tag ids, 100-200, and outputs a signal to the throttle to control motor speeds. The second is a tag that can be rotated, and depending on the rotation amount output a value to the throttle that is between 100-200. This functionality is implemented in the Controller class.
+The autonomy part of our code takes in the found codes from Aruco and does useful things with them. We have implemented a number of basic autonomous features. First we have basic support for centering on QR tags. This algorithm looks at the position of the tag in the image, and then tries to adjust using proportional control. For example, If the code is far to the right side of the image, yaw a little bit counterclockwise to center it in the center. The second two autonomous controls were made mainly for demo purposes. The first is a system that reads in tag ids, 100-200, and outputs a signal to the throttle to control motor speeds. The second is a tag that can be rotated, and depending on the rotation amount output a value to the throttle that is between 100-200. This functionality is implemented in the Controller class.
 
 ###Bidirectional Communication
-The last part of our code is bidirectional communication. This allows us to easily send and receive data over the local network. To do this we used boost::asio, an asynchronous networking library from boost. Our code allows a client, in our case a laptop, to send commands to the system in real time. These commands can change specific controls as well as stop the system. This functionality is also implemented in main.cpp.
+The last part of our code is bidirectional communication. This allows us to easily send and receive data over the local network. For the server, we used boost::asio, an asynchronous networking library from boost.  This functionality is implemented in main.cpp. The client is written in python and has a tkinter gui that allows a user to send commands to the quadcopter in real time. Using python sockets, we send this information over to the server. These commands can change specific controls as well as stop the system. The gui is implemented in gui.py and the client that communicates with the server on the raspberry pi is implemented in client.py. 
 
 ###Problems Encountered
 The Linux kernel module that handles webcams is called uvcvideo. This module does not seem to play nicely with medium to high resolution images captured with OpenCV. To solve this, we lowered our capture resolution to 320x240 and this fixed those problems.
