@@ -12,8 +12,8 @@ Cardboard,
 
 Glue
 
-Motors, 4x,
-	we used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbyking.com/hobbyking/store/__18225__Turnigy_D3530_14_1100KV_Brushless_Outrunner_Motor.html) at $14.56 each.
+Motors, 4x + Propeller clamps,
+	we used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbyking.com/hobbyking/store/__18225__Turnigy_D3530_14_1100KV_Brushless_Outrunner_Motor.html) at $14.56 each. Our motors also came with propeller clamps which allowed us to easily connect our propellers to the motors.
 
 Electronic Speed Controllers (ESC), 4x,
 	we used [TURNIGY Plush 18 amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__4312__TURNIGY_Plush_18amp_Speed_Controller.html) at $11.90 each.
