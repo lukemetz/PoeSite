@@ -1,12 +1,11 @@
+Setting up the Raspberry Pi.
+============================
+We decided to use Rasbian, a distribution that is relatively easy to set up and meant for the pi. We decided to not install X for performance reasons, but got up a basic c++ tool chain, wifi connections using wicd, and ssh. We then installed many libraries, including OpenCV, and servoblaster. Due to the speed of the raspberry pi, this process is quite slow and takes many hours.
 
-The first step to our computational side of our project setting up our raspberry pi. We decided to use Rasbian, a distribution that is relatively easy to set up and meant for the pi. We decided to not install X for performance reasons, but got up a basic c++ tool chain, wifi connections using wicd, and ssh. We then installed many libraries, including OpenCV, and servoblaster. With all of this setup, we where ready to start development.
+Tips for writing autonomous code
+================================
+Always write code on a computer. Due to the number of libraries we are using and the speed of the Raspberry Pi compile times are quite painful to debug with. In general, all code can be written on the computer, tested on the computer, and then uploaded to the Pi. Another more extreme option to minimize recompiles is to place all of the configuration values in an external file that can be changed at runtime.
 
-Our first step was to get basic Code tracking working. With the Aruco library, this was quite simple. We used a sample Aruco application and built the rest of our code off of that. As a proof of concept, we wrote code that allowed us to center the quadcopter onto a tag. Without a actual quadcopter to test with our control constants had to be estimated.
+As with all programming, start small and test. At least in our experience, the code can get quite complex very quickly and it helped a lot to make small tests.
 
-Our next steps in the code consisted of creating bidirectional communication. This was built using boost::asio. At first we tried to use a more asynchronous based socket system, but we soon switched to a synchronous one running in a different thread. Although this is more limited, it posed no problems for us and was a much simpler solution.
-
-With this socket setup, we started to define a protocol for communication. The first command we added was to control various controls. This command took the form of C[channel_num][pulse_length*100]. So to turn motor 3 on with a 1.5ms pulse one would send "C3150".
-
-The second bidirectional communication step we added was video steaming. When testing various video streaming programs we quickly found that we could not run two programs at once that used the same video device. Because we wanted image processing to be able to run at the same time, we had to build something into our code to transfer each frame taken. To do this we converted the raw image data to a jpg and sent it over the socket to the client. This code worked when testing on laptops, but when it was taken to the pi, we ran into issues relating to incoming packet order that produced invalid jpgs. At this point in time we have not debugged these issues, but have created a workaround that finds contiguous frames.
-
-To prepare for demo day, we created a couple of demos that where proof of concepts. These demos include the controlling motor throttle with different QR tags as well as controlling throttle by rotating a tag. Despite the fact that these "features" have no use in our final quadcopter, the showed that the technology worked and all of the parts where integrated.
+Test your code! When writing image based autonomous code, its generally a good idea to run automated tests on your code. These tests take your code, and would run them in various virtual environments on a simulated quadcopter that behaves like the actual one. For our project we where not doing very complicated autonomy so we opted not to create this simulated environment. If your plan is to add more, we would strongly recommend creating a testing environment such as this.

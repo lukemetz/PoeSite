@@ -40,4 +40,7 @@ The autonomy part of our code takes the in the found codes from Aruco and does u
 ###Bidirectional Communication
 The last part of our code is bidirectional communication. This allows us to easily send and receive data over the local network. To do this we used boost::asio, an asynchronous networking library from boost. Our code allows a client, in our case a laptop, to send commands to the system in real time. These commands can change specific controls as well as stop the system. This functionality is also implemented in main.cpp.
 
-The client side.....
+###Problems Encountered
+The Linux kernel module that handles webcams is called uvcvideo. This module does not seem to play nicely with medium to high resolution images captured with OpenCV. To solve this, we lowered our capture resolution to 320x240 and this fixed those problems.
+
+The other issue we encountered was video streaming. When testing various video streaming programs we quickly found that we could not run two programs at once that used the same video device. Because we wanted image processing to be able to run at the same time, we had to build something into our code to transfer each frame taken. To do this we converted the raw image data to a jpg and sent it over the socket to the client. This code worked when testing on laptops, but when it was taken to the pi, we ran into issues relating to incoming packet order that produced invalid jpgs. This issue was so painful to debug we stopped and went on to debugging other things.
