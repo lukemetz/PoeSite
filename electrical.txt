@@ -1,18 +1,34 @@
 Electrical System
 =================
 
-Flight Controller
------------------
+## System Overview
+
+### Flight Controller
 We purchased the HobbyKing Multi-Rotor Control Board V2.1 with an Atmega168PA microcontroller chip that is about 5cm squared and weighs 14.5g. This small board has both a gyroscope and accelerometer that will handle basic balancing of the quadcopter, allowing us to focus our efforts on both the mechanical construction and the autonomy aspects of our quadcopter.
 
 ![Our Flight Controller](%base_url%/content/controllerboard.jpg "Control Board")
 
-Batteries
----------
+### Batteries
 To power our quadcopter, we have a 3300mAh 3-cell lithium polymer battery, that will give us about 8-10 minutes of flight. We have a regulator to allocate power both to our small electronics (raspberry pi and controller board) and our motors.
 
 ![](%base_url%/content/battery.jpg "Lithium Polymer Battery")
 
-RC Control
-----------
-In addition to having autonomous control, we will have an RC override. We will mount an rc transmitter on our quadcopter, allowing us to use an RC receiver whenever we want to. This will allow us to test basic functionality such as turning, hovering, etc. without having to write the autonomy for simple testing.
+### RC Control
+In addition to having autonomous control, we will have an RC override. We will mount an RCRC transmitter on our quadcopter, allowing us to use an RC receiver whenever we want to. This will allow us to test basic functionality such as turning, hovering, etc. without having to write the autonomy for simple testing.
+
+## Electrical Schematic
+
+* a schematic of the switch (fritzing)
+* an overview illustration of all the components in the system (Illustrator)
+* power management (Illustrator)
+
+##Problems Encountered
+###Splitting Battery Power
+One of the first roadblocks we encountered with our electrical system was that we did not think about how we would physically connect the four motor speed controllers and the BEC that would power the Raspberry PI to the battery. We had not ordered connectors for the battery terminals, and we could definitely not solder all of the wires together into the connectors even if we had them.
+
+![Single Joint](%base_url%/content/WireJoint.jpg "The First Solder Joint")
+
+To solve this problem, we asked another Olin professor, Dr. Drew Bennett, for advice. He has a lot of experience with RC controlled aircraft, and he was able to give us connectors from the battery terminals and an idea of how to properly split the power. We ended up soldering thick, high amperage to the battery terminal connectors and then soldering each of the motor speed controllers and the BEC into that wire along its length so that each would be soldered well and each solder joint would only be connecting two things.
+
+![Power Wiring](%base_url%/content/PowerSplitting.jpg "Power Splitting Solution")
+
