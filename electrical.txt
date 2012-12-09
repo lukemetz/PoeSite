@@ -32,3 +32,14 @@ To solve this problem, we asked another Olin professor, Dr. Drew Bennett, for ad
 
 ![Power Wiring](%base_url%/content/PowerSplitting.jpg "Power Splitting Solution")
 
+###Creating a Switch
+A key function that had to be present on our quadcopter was the ability to switch between RC control and Raspberry Pi control quickly and easily using a switch on the RC controller. This is not only for our own safety when testing the quadcopter, but it is also required by law that autonomous air vehicles have a way to take control remotely.
+
+In the beginning we knew that this feature would exist on the final prototype, but we didn't consider how we would use a RC controller switch to distinguish which 4 control signals to pass out to the flight control board.
+
+We first attempted to use a single pull double push DG189BP JFET switch, because these switches were readily available in Olin's Electrical and Computer Engineering stockroom. However, powering this type of switch required not only the standard ground and 5V that we readily had access to, but also -15V and 15V. Since attempting to magnify the 11.1V that we could draw from the battery would have been excessively complex and taken an unnecessary amount of time, we decided to purchase a quad  2-input multiplexer switch from Digikey instead.
+
+The quad 2-input multiplexer switch did exactly what we wanted it to do; it took in two sets of four inputs and chose which set of four were output to the flight control board based on whether one node was given a high or low voltage.
+
+### Converting PWM Signal to Voltage
+Next we had to figure out how to convert the PWM signal that was the 
