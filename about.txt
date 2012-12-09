@@ -29,7 +29,7 @@ This project could not have been done without the help of many many people:
 
 Amon Millner
 ------------
-Our professor for POE. He provided much <del>incite</del> insight that steered the project forward both in and outside design reviews.
+Our professor for POE. He provided much insight that steered the project forward both in and outside design reviews.
 
 George Herring
 -------------
@@ -37,7 +37,7 @@ The Teaching Assistant for the class, or Ninja as they call them here. Helped wi
 
 Matt Wismer
 -----------
-A <del>fiend</del> friend who brought all the EE knowledge as well as sanity checks.
+A friend who brought all the EE knowledge as well as sanity checks.
 
 Drew Bennett's Lab
 ------------------
