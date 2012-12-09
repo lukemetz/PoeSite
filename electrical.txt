@@ -25,7 +25,7 @@ In addition to having autonomous control, we have RC control and RC override. We
 * power management (Illustrator)
 
 ##Problems Encountered
-###Splitting Battery Power
+###Power Distribution
 One of the first roadblocks we encountered with our electrical system was that we did not think about how we would physically connect the four motor speed controllers and the BEC that would power the Raspberry PI to the battery. We had not ordered connectors for the battery terminals, and we could definitely not solder all of the wires together into the connectors even if we had them.
 
 ![Single Joint](%base_url%/content/WireJoint.jpg "The First Solder Joint")
