@@ -10,8 +10,6 @@ Materials
 Cardboard,
 	the sheet we we used was 32"x20" with a thickness off around 4.1mm. A large clean box should do.
 
-Glue
-
 Motors, 4x + Propeller clamps,
 	we used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbyking.com/hobbyking/store/__18225__Turnigy_D3530_14_1100KV_Brushless_Outrunner_Motor.html) at $14.56 each. Our motors also came with propeller clamps which allowed us to easily connect our propellers to the motors.
 
@@ -36,9 +34,12 @@ Foam block 4x 2 inch by 4 inch chunks,
 Cyanoacrylate based glue,
 	Anything will work, the thicker the glue, the easier it is to work with. We used something along the lines of [this](http://www.hobbyking.com/hobbyking/store/__8675__Insta_Cure_Plus_Gap_Filling_CA_1_2_oz.html).
 
+Tape
+	We used duck tape to for the mounting of the foam landing pads as well as for low force attachment of electronics.
+
 nuts and bolts, 16x sets of 1 nut and 1 bolt,
 	Washers can be used when directly bolting to cardboard, but we found that you did not really need them.
-	TODO find what we used.....
+	We used 4-40 x 5/8inch nuts and matching bolts.
 
 SWITCH COMPONENTS
 caps and resistors
@@ -48,6 +49,9 @@ Opamp
 
 Battery, 1x
 	We used [Turnigy nano-tech 3300mah 3S 25~50C Lipo Pack](http://www.hobbyking.com/hobbyking/store/__11923__Turnigy_nano_tech_3300mah_3S_25_50C_Lipo_Pack.html) at $26.72.
+
+Battery indicator, 1x
+	This device changes color and beeps if the batter is at low voltage. This is a must have if you don't want to keep breaking batteries. We used a [3 Cell Hobby King Battery Monitor](http://www.hobbyking.com/hobbyking/store/__7223__Hobby_King_Battery_Monitor_3S.html) at $3.99.
 
 BEC 1x,
 	This is used to power the Raspberry Pi. We used [HobbyKing Micro UBEC 3A / 5v](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=15212) at $3.77.
