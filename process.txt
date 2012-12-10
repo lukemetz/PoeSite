@@ -9,3 +9,17 @@ Always write code on a computer. Due to the number of libraries we are using and
 As with all programming, start small and test. At least in our experience, the code can get quite complex very quickly and it helped a lot to make small tests.
 
 Test your code! When writing image based autonomous code, its generally a good idea to run automated tests on your code. These tests take your code, and would run them in various virtual environments on a simulated quadcopter that behaves like the actual one. For our project we where not doing very complicated autonomy so we opted not to create this simulated environment. If your plan is to add more, we would strongly recommend creating a testing environment such as this.
+
+Programming Flight Controller and ESC's
+=======================================
+The first thing we did when we got out flight controller was to reprogram it to use the kapteinkuk xcopter kk firmware. To do this, we used the [kkMulticopter Flashtool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool).
+
+We then programmed the ESC's by
+
+Tunning and Stabilization
+=========================
+Tunning our quad copter was quite difficult for us. To begin with, we neutral the potentiometers. Move the first and third pot to 50% and the second pot to 0%. In the firmware we are using the second pot is unused. To begin with, we tied down our quadcopter such that it could not fly away. We then used the RC controllers trim values to trim it level. This step takes a lot of time and tinkering with controls.
+
+Once the copter is more or less level, use the first pot to adjust roll and pitch gains and then tune the 3rd pot until the copter flies straight.
+
+Once you have configured your quadcopter, you are going to want to scope the output of the RC receiver such that you can emulate the tunning in the autonomous code.

@@ -1,6 +1,6 @@
 /*
 Title: Mechanical
-Description: Mechanical subsystem of the piquapter
+Description: Mechanical subsystem of the piquopter
 */
 
 
@@ -17,13 +17,13 @@ The one downfall to corrugated cardboard is its strength. In certain directions,
 Frame Design
 ------------
 
-The frame consists of three sections: a center base for the control board and other electronits, four arms, and a motor mounting box at the end of each arm. We have built two prototypes for our frame. The first one was experimental and lacked many of the necessary componenents as well as having some issues. The changes we made included making the cardboard slots smaller (we originally measured cardboard to be 5mm, but by going back and measuring realized that it was actually 4.1mm thick), that we needed a solid cardboard sheet with guide holes to mount the motors, adding slots for the wiring to run through, adding legs, and adding additional shelves for electronics.
+The frame consists of three sections: a center base for the control board and other electronics, four arms, and a motor mounting box at the end of each arm. We have built two prototypes for our frame. The first one was experimental and lacked many of the necessary components as well as having some issues. The changes we made included making the cardboard slots smaller (we originally measured cardboard to be 5mm, but by going back and measuring realized that it was actually 4.1mm thick), that we needed a solid cardboard sheet with guide holes to mount the motors, adding slots for the wiring to run through, adding legs, and adding additional shelves for electronics.
 
 ![](%base_url%/content/prototype2.JPG "The full assembled quadcopter")
 
 Props
 -----
-We have four 8 inch, three-blade props with 4 inch pitch. There will be two counter-rotating and two regularly rotating props. This will balance out the rotation of the copter. We got these specific props because of their low pitch and because they have three blades, which maximes our lift, and are optimized for helicopter-like vehicles.
+We have four 8 inch, three-blade props with 4 inch pitch. There will be two counter-rotating and two regularly rotating props. This will balance out the rotation of the copter. We got these specific props because of their low pitch and because they have three blades, which maximizes our lift, and are optimized for helicopter-like vehicles.
 
 We have wire frames coming out of the cardboard arms of the quadcopter that are bent around the outside of the propellors to make our quadcopter both more durable if it runs into walls or other objects, and as a safety feature for those in the vicinity when the quadcopter is flying.
 
