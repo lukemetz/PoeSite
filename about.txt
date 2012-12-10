@@ -9,7 +9,7 @@ Heather is interested in both computer science and mechanical engineering. She i
 
 Kaitlin Gallagher
 -----------------
-Kaitlin likes Doctor Who
+Kaitlin is a computer engineering major recently converted from the mechanical field. She also enjoys working on LabView code with the Olin SailBot Team and learning python. Much of her free time is spent practicing poi (fire spinning) and watching Doctor Who.
 
 Luke Metz
 --------
