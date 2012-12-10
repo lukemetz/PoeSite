@@ -3,20 +3,20 @@ Title: The Plan
 Description: Our original goals for the project
 */
 
-The Plan
-=======
+The Process
+===========
 
 Goals
 ------
 
 Our Initial vision at the start of the project was to have a quadcopter that could:
 
-	* Fly under RC control
-	* Fly autonomously
-	* Reliably switch to back to RC control remotely with the controller
-	* Be small- we where hoping for smaller than a dinner plate.
+* Fly under RC control
+* Fly autonomously
+* Reliably switch to back to RC control remotely with the controller
+* Be small- we where hoping for smaller than a dinner plate.
 
-After receiving feedback from our professor, we dropped the super small scale and added the ability to do on board image processing with a small Linux based computer called a Raspberry Pi. We hoped to enable our quadcopter to preform basic actions such as following a QR code, landing in specific locations, and holding position when it has sensed a light. We planned to obtain the image processing aspect of our project by using the openCV libraries. We chose to use the c++ bindings for these libraries due to support and familiarity with the language. In addition to this, we wanted to have communication between the Raspberry Pi and our computers using wifi.
+After receiving feedback from our professor, we dropped the super small scale and added the ability to do on board image processing with a small Linux based computer called a Raspberry Pi. We hoped to enable our quadcopter to preform basic actions such as following a QR code, landing in specific locatoins, and holding position when it has sensed a light. We planned to obtain the image processing aspect of our project by using the openCV libraries. We chose to use the c++ bindings for these libraries due to support and familiarity with the language. In addition to this, we wanted to have communication between the Raspberry Pi and our computers using wifi.
 
 We dropped the goal of reacting to light a couple weeks into the project, because it did not relate well to our other goals. We decided that we would rather focus on having a robust and adaptable image processing system rather than trying to incorporate a photo resistor into the system.
 
@@ -32,11 +32,133 @@ What Didn't Go Well
 -------------------
 Our team, much like most POE teams, suffered from doing things last minute. During our original schedule, we were planning to be done a full two weeks before demo day. Some delays were outside of our control, such as long shipping times from China and replacement parts lost in mail. Other issues should have been considered from the start, crashing our quadcopter and having to rebuild. In general our team should have probably got to the integration phase of our project a little sooner.
 
-One week before the presentation deadline, the quadcopter experience a crash that ripped appart all the props. As a safty procedure, we were turning off the controller whenever someone needed to adjust something. Unfortunetly, when the control board receves no signal from the controller, it puts all motors full on. Because the copter was on a short tether, no one got hurt, but it destroyed all four props and we only had two spares. We imedietlly ordered a new set with two day shipping, but they got lost in the mail and didn't arrive until well after the presentation date. The impressive part about the crash was that the cardboard frame survived almost unscathed. One of the motors even pulled itself off its base, but the base stayed firmly attached to the cardboard. 
-
 
 Reflection
 ----------
-Our team feels like it was a great experience. It was a lot of work, but very rewarding. Making a quad copter for a class like POE is quite difficult both in budget and planning. Unlike many of the teams at Olin, we could not use existing materials or stockrooms to their full advantage. To make matters worse, the parts needed to make a quadcopter are hard to find, and to get them cheaply we had to order from china. We had to place one order with a large shipping cost that totaled $200 out of our $250 budget.
+Our team feels like it was a great experience. It was a lot of work, but very rewarding. Making a quad copter for a class like POE is quite difficult both in budget and planning. Unlike many of the teams at Olin, we could not use existing materials or stockrooms to there full advantage. To make matters worse, the parts needed to make a quadcopter are hard to find, and to get them cheaply we had to order from china. We had to place one order with a large shipping cost that totaled $200 out of our $250 budget.
 
 The other thing nobody in our group really realized was how dangerous our quadcopter is. These motors are incredibly high power, each one uses 150-200 watts. This means our total power usage is over a half a horse power. To top it all off, all of this power is concentrated in one hard to control, hard to turn off object. This fear became incredibly evident after the our crash. We discovered that there is what we would call a bug in the control software we where using where if the receiver receives no signal, all of the motors turn. With the trashing that ensued, our RC receiver's wires got cut and we were forced to wait while our propellers broke off and it was safe to approach and unplug. This really enforced the need for safety when testing our quadcopter such as always having it tethered, testing far away from people, and ensuring that all team members wore safety glasses.
+
+Materials Used
+--------------
+
+### On-Board ###
+
+Cardboard from the recycling bin,
+  the sheet we we used was 32"x20" with a thickness off around 4.1mm. A large clean box should do.
+
+Motors from Hobby King, 4x + Propeller clamps,
+	we used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbyking.com/hobbyking/store/__18225__Turnigy_D3530_14_1100KV_Brushless_Outrunner_Motor.html) at $14.56 each. Our motors also came with propeller clamps which allowed us to easily connect our propellers to the motors.
+
+Electronic Speed Controllers (ESC) from Hobby King, 4x,
+	we used [TURNIGY Plush 18 amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__4312__TURNIGY_Plush_18amp_Speed_Controller.html) at $11.90 each.
+
+Propellers from GWS props, 2x counter clock wise rotating, 2x clockwise
+	we used [3 bladed 8x4x3 GWS props](http://www.gwsprops.com/3_blade_props.htm) at $2.00 each.
+
+Flight Controller from Hobby King, 1x
+	We used [HobbyKing Multi-Rotor Control Board V2.1](http://www.hobbyking.com/hobbyking/store/__19534__HobbyKing_Multi_Rotor_Control_Board_V2_1_Atmega168PA_.html) at $12.99
+
+Flight Controller Mounting Pads from Hobby King,
+	We got a pack of [Gyro / Flight Controller Mounting Pad](http://www.hobbyking.com/hobbyking/store/__15214__Gyro_Flight_Controller_Mounting_Pad_10pcs_bag_.html) at $1.99 but one can also use double sided tape.
+
+RC Receiver from amazon.com, 1x,
+	We got a [CSRC-RX3000 Spektrum DSM2 Compatible 2.4Ghz 6-Ch Receiver](http://www.amazon.com/gp/product/B005M2YJYO/ref=oh_details_o03_s00_i00) on sale for $9.99. Any 5 or more channel receiver will do though.
+
+Foam block from Silas, 4x 2 inch by 4 inch chunks,
+	Used for a more durable landing.
+
+Cyanoacrylate based glue from personal stock and Harvey's Hardware,
+	Anything will work, the thicker the glue, the easier it is to work with. We used something along the lines of [this](http://www.hobbyking.com/hobbyking/store/__8675__Insta_Cure_Plus_Gap_Filling_CA_1_2_oz.html).
+
+Tape from class stock,
+	We used duck tape to for the mounting of the foam landing pads as well as for low force attachment of electronics.
+
+Nuts and bolts from the MechE stockroom, 16x sets of 1 nut and 1 bolt,
+	Washers can be used when directly bolting to cardboard, but we found that you did not really need them.
+	We used 4-40 x 5/8 inch nuts and matching bolts.
+
+0.1mF capacitor from the ECE stockroom, 1x
+	Used in the low pass filter before the Schmitt trigger.
+
+7.87kΩ resistor from the ECE stockroom, 1x
+	Used in the voltage divider.
+
+8.2kΩ resistor from the ECE stockroom, 1x
+	Used in the low pass filter.
+
+453Ω resistor from the ECE stockroom, 1x
+	Used in the voltage divider.
+
+Operational Amplifier (LMC6484) from the ECE stockroom, 1x
+	Used to create the Schmitt trigger.
+
+Quad 2-Input Mux (74HC157N) from [Digikey](http://www.digikey.com/product-detail/en/74HC157N,652/568-7796-5-ND/1230105), 1x
+	Used to switch between the RC receiver and Raspberry Pi signal.
+
+Section of perf-board from the ECE stockroom
+	Used to solder the entire switch circuit in a condensed form for the quadcopter.
+
+Battery from Hobby King, 1x
+	We used [Turnigy nano-tech 3300mah 3S 25~50C Lipo Pack](http://www.hobbyking.com/hobbyking/store/__11923__Turnigy_nano_tech_3300mah_3S_25_50C_Lipo_Pack.html) at $26.72.
+
+Battery indicator from Drew Bennett, 1x
+	This device changes color and beeps if the batter is at low voltage. This is a must have if you don't want to keep breaking batteries. We used a [3 Cell Hobby King Battery Monitor](http://www.hobbyking.com/hobbyking/store/__7223__Hobby_King_Battery_Monitor_3S.html) at $3.99.
+
+BEC from Hobby King, 1x,
+	This is used to power the Raspberry Pi. We used [HobbyKing Micro UBEC 3A / 5v](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=15212) at $3.77.
+
+Servo Connectors, female to female from Hobby King, 4x,
+	We got a [pack of 5 female female from hobby king](http://www.hobbyking.com/hobbyking/store/__20958__15CM_Servo_Lead_Extention_JR_with_hook_26AWG_5pcs_bag_.html) at $1.65 that we cut in half.
+
+Power Wire from Drew Bennett, 2x 6 inches high current pieces,
+	We used ??? AWG [red](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=9671) and [black](http://www.hobbyking.com/hobbyking/store/__9672__Turnigy_Pure_Silicone_Wire_10AWG_1mtr_BLACK.html) that can be bought from hobby king at for $2.99 a meter.
+
+4mm Bullet Connectors from Drew Bennett, at least 1 male and 1 female.
+	Casing is nice, so we would suggest [HXT 4mm Gold Connector w/ Protector](www.hobbyking.com/hobbyking/store/__9283__HXT_4mm_Gold_Connector_w_Protector_10pcs_set_.html) at $3.64.
+
+3.5mm Bullet Connectors from Drew Bennett, at least 12x
+	Available in [packs of 10](http://www.hobbyking.com/hobbyking/store/__68__PolyMax_3_5mm_Gold_Connectors_10_PAIRS_20PC_.html) from hobby king for $1.59.
+
+Raspberry Pi from Luke, 1x,
+	We used one of the older model B with 256mb of ram for $35.00. A model A would work and probably better for $25. They are currently hard to buy, you could place an order from a vendor on [there site](http://www.raspberrypi.org/) and wait a few months, or just get one from [Amazon](http://www.amazon.com/Raspberry-Pi-Model-Revision-512MB/dp/B009SQQF9C/ref=sr_1_1?ie=UTF8&qid=1354330292&sr=8-1&keywords=raspberry+pi).
+
+Web Camera from amazon.com, 1x,
+	Really any usb webcam with linux support will work. We used [Microsoft-LifeCam-VX-5000](www.amazon.com/Microsoft-LifeCam-VX-5000-Webcam-Accent/dp/B0015BYS74/ref=sr_1_10?s=electronics&ie=UTF8&qid=1350853397&sr=1-10&keywords=camera+microsoft) for $12.74.
+
+Wifi Card from amazon.com, 1x,
+	Any linux supported wifi card should work. We used [http://www.amazon.com/gp/product/B003X26PMO/ref=oh_details_o02_s00_i00] at $13.06.
+
+SD Card from amazon.com, 1x,
+	We used a 16gb card from [amazon](http://www.amazon.com/AmazonBasics-SDHC-Class-Secure-Digital/dp/B0058GH1IK/ref=sr_1_7?ie=UTF8&qid=1354399638&sr=8-7&keywords=sd+card) at $11.52.
+
+Micro usb cable from amazon.com, 1x,
+	It does not need to be long, we used a [six inch cable](http://www.amazon.com/StarTech-com-Inch-Micro-USB-Cable/dp/B003YKX6WM/ref=sr_1_10?s=electronics&ie=UTF8&qid=1354399700&sr=1-10&keywords=micro+usb+cable) at $3.09.
+
+### Off-Board ###
+
+AVR Programming device one from Hobby King and one borrowed from our NINJA, 1x
+	We first got [USBasp AVR Programming Device for ATMEL processors](http://www.hobbyking.com/hobbyking/store/__21321__USBasp_AVR_Programming_Device_for_ATMEL_proccessors.html) at $4.95.
+	Our board was defective, so we ended up using a [Atmel AVRISP mkII In-System Programmer](http://store.atmel.com/PartDetail.aspx?q=p:10500054) at $34
+
+RC Transmitter from Drew Bennett, 1x
+	We used the highly overkill [DX8 8CH Transmitter](http://www.spektrumrc.com/Products/Default.aspx?ProdID=SPM8800) at $429.99. All you really need is 5 or more channels.
+
+3 cell Lipo Battery Charger + Power supply from Drew Bennett's lab, 1x,
+	Some way to charge your battery.
+
+
+Estimated Cost
+--------------
+/*
+14.56*4+11.90*4+2*4+12.99+9.99+1.99+26.72+3.77+1.65+2.99*2+3.64+1.59*2+25+12.74+13.06 +11.52 + 3.09= 249.16
+
+*/
+The minimum need parts assuming you have an avr programmer and an rc receiver and batter charger is: $249.16 not counting shipping.
+/*
+14.56*5+11.90*5+2*12+12.99+9.99+1.99+26.72+3.77+1.65*2+2.99*2+3.64+1.59*2+25+12.74+13.06+11.52 + 3.09 = 293.27
+
+*/
+In our testing, we found that parts break and its nice to have backups, thus we would suggest getting another motor and speed controller, more Servo Connectors, 2 more sets of props, a spare battery as well as some more cardboard. This would put the total up to $293.27.
+
+//For our project, we had free access to wire, and some connectors, add this???

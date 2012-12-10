@@ -39,16 +39,18 @@ Matt Wismer
 -----------
 A friend who brought all the EE knowledge as well as sanity checks.
 
-Drew Bennett's Lab
-------------------
+###Drew Bennett's Lab
 
-###Drew Bennett
+Drew Bennett
+------------------
 Provided us with assistance testing as well as access to many parts and battery charging devices.
 
-###Silas Hughes
+Silas Hughes
+------------------
 The local quadcopter expert, helping us with everything from buying parts to stabilization.
 
-###Adela Wee
+Adela Wee
+------------------
 Charged our batteries for us countless times and answered many a question.
 
 
