@@ -39,13 +39,13 @@ Tape
 
 nuts and bolts, 16x sets of 1 nut and 1 bolt,
 	Washers can be used when directly bolting to cardboard, but we found that you did not really need them.
-	We used 4-40 x 5/8inch nuts and matching bolts.
+	We used 4-40 x 5/8 inch nuts and matching bolts.
 
 SWITCH COMPONENTS
 caps and resistors
 chip
 PerfBoards
-Opamp
+Op-amp
 
 Battery, 1x
 	We used [Turnigy nano-tech 3300mah 3S 25~50C Lipo Pack](http://www.hobbyking.com/hobbyking/store/__11923__Turnigy_nano_tech_3300mah_3S_25_50C_Lipo_Pack.html) at $26.72.
@@ -66,9 +66,9 @@ Power Wire, 2x 6 inches high current pieces,
 	Casing is nice, so we would suggest [HXT 4mm Gold Connector w/ Protector](www.hobbyking.com/hobbyking/store/__9283__HXT_4mm_Gold_Connector_w_Protector_10pcs_set_.html) at $3.64.
 
 3.5mm Bullet Connectors, at least 12x
-	Avalible in [packs of 10](http://www.hobbyking.com/hobbyking/store/__68__PolyMax_3_5mm_Gold_Connectors_10_PAIRS_20PC_.html) from hobby king for $1.59.
+	Available in [packs of 10](http://www.hobbyking.com/hobbyking/store/__68__PolyMax_3_5mm_Gold_Connectors_10_PAIRS_20PC_.html) from hobby king for $1.59.
 
-Rasberry PI 1x,
+Raspberry PI 1x,
 	We used one of the older model B with 256mb of ram for $35.00. A model A would work and probably better for $25. They are currently hard to buy, you could place an order from a vendor on [there site](http://www.raspberrypi.org/) and wait a few months, or just get one from [Amazon](http://www.amazon.com/Raspberry-Pi-Model-Revision-512MB/dp/B009SQQF9C/ref=sr_1_1?ie=UTF8&qid=1354330292&sr=8-1&keywords=raspberry+pi).
 
 Web Camera 1x,
@@ -123,7 +123,7 @@ Electronics
 
 Frame
 -----
-Our entire frame is made out of laser cut cardboard. Our team was able to fit all of the required parts onto one sheet that could fit in the laser. When designing this sheet, great care was taken to align the parts to match the correlations in the cardboard.
+Our entire frame is made out of laser cut cardboard. Our team was able to fit all of the required parts onto one sheet that could fit in the laser. When designing this sheet, great care was taken to align the parts to match the corrugations in the cardboard.
 
 We used a thick Cyanoacrylate based glue to do all of our connections. This gave us quick dry times for speedy construction as well as all of the strength we need.
 
