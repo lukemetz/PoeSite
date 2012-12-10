@@ -16,8 +16,25 @@ Our Initial vision at the start of the project was to have a quadcopter that cou
 	* Reliably switch to back to RC control remotely with the controller
 	* Be small- we where hoping for smaller than a dinner plate.
 
-After receiving feedback from our professor, we dropped the super small scale and added the ability to do on board image processing with a small Linux based computer called a Raspberry Pi. We hoped to enable our quadcopter to preform basic actions such as following a QR code, landing in specific locations, and holding position when it has sensed a light. We planned to obtain the image processing aspect of our project by using the openCV libraries. We chose to use the c++ bindings for these libraries due to support and familiarity with the language. In addition to this, we wanted to have communication between the Raspberry Ri and our computers using wifi.
+After receiving feedback from our professor, we dropped the super small scale and added the ability to do on board image processing with a small Linux based computer called a Raspberry Pi. We hoped to enable our quadcopter to preform basic actions such as following a QR code, landing in specific locations, and holding position when it has sensed a light. We planned to obtain the image processing aspect of our project by using the openCV libraries. We chose to use the c++ bindings for these libraries due to support and familiarity with the language. In addition to this, we wanted to have communication between the Raspberry Pi and our computers using wifi.
 
-We dropped the goal of reacting to light a couple weeks into the project, because it did not relate well to our other goals. We decided that we would rather focus on having a robust and adaptable image processing system rather than trying to incorporate a photoresistor into the system.
+We dropped the goal of reacting to light a couple weeks into the project, because it did not relate well to our other goals. We decided that we would rather focus on having a robust and adaptable image processing system rather than trying to incorporate a photo resistor into the system.
 
 The week before the due date we pivoted again and scaled back our goals in terms of the functionality of the image processing. Since we did not have a fliable quadcopter and therefore did not have the ablity to test complex movement. Therefore, we decided to add some additional features to our code. We got up a client/server TCP network that allowed us to send commands to the raspberry pi from a computer, as well as making several proofs of concepts to control motor speed based on qr code id and positioning/angle.
+
+
+How we did
+----------
+We are quite happy with our final product. We successfully integrated all of the major components. We had a few roadblocks that we had to conquer, mainly propellers breaking and then getting lost in the mail, which delayed our schedule and made us not able to have a flying quadcopter by demo day, but hopefully we will have a flying quadcopter to demo soon.
+
+
+What Didn't Go Well
+-------------------
+Our team, much like most POE teams, suffered from doing things last minute. During our original schedule, we were planning to be done a full two weeks before demo day. Some delays were outside of our control, such as long shipping times from China and replacement parts lost in mail. Other issues should have been considered from the start, crashing our quadcopter and having to rebuild. In general our team should have probably got to the integration phase of our project a little sooner.
+
+
+Reflection
+----------
+Our team feels like it was a great experience. It was a lot of work, but very rewarding. Making a quad copter for a class like POE is quite difficult both in budget and planning. Unlike many of the teams at Olin, we could not use existing materials or stockrooms to there full advantage. To make matters worse, the parts needed to make a quadcopter are hard to find, and to get them cheaply we had to order from china. We had to place one order with a large shipping cost that totaled $200 out of our $250 budget.
+
+The other thing nobody in our group really realized was how dangerous our quadcopter is. These motors are incredibly high power, each one uses 150-200 watts. This means our total power usage is over a half a horse power. To top it all off, all of this power is concentrated in one hard to control, hard to turn off object. This fear became incredibly evident after the our crash. We discovered that there is what we would call a bug in the control software we where using where if the receiver receives no signal, all of the motors turn. With the trashing that ensued, our RC receiver's wires got cut and we were forced to wait while our propellers broke off and it was safe to approach and unplug. This really enforced the need for safety when testing our quadcopter such as always having it tethered, testing far away from people, and ensuring that all team members wore safety glasses.
