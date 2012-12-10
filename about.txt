@@ -5,7 +5,7 @@ We are a group of 4 sophomore engineering students at Olin College of Engineerin
 
 Heather Boortz
 --------------
-Heather likes unicycling
+Heather is interested in both computer science and mechanical engineering. She is part of the electrical vehicle team at Olin, REVO. She likes to do a lot of both unicycling and bicycling in her free time.
 
 Kaitlin Gallagher
 -----------------
@@ -20,7 +20,7 @@ In computer science land, he loves to dabble in the field of graphics.
 
 Lyra Silverwolf
 ---------------
-Lyra likes sailbot
+Lyra is an electrical and computer engineering major in the class of 2015 at Olin. Outside of this project, she is really excited about the autonomous robotic sailboat she is building with the Olin Robotic Sailing team.
 
 
 Thanks!
@@ -29,7 +29,7 @@ This project could not have been done without the help of many many people:
 
 Amon Millner
 ------------
-Our professor for POE. He provided much incite that steered the project forward both in and outside design reviews.
+Our professor for POE. He provided much insight that steered the project forward both in and outside design reviews.
 
 George Herring
 -------------
@@ -37,7 +37,7 @@ The Teaching Assistant for the class, or Ninja as they call them here. Helped wi
 
 Matt Wismer
 -----------
-A fiend who brought all the EE knowledge as well as sanity checks.
+A friend who brought all the EE knowledge as well as sanity checks.
 
 Drew Bennett's Lab
 ------------------
@@ -45,8 +45,8 @@ Drew Bennett's Lab
 ###Drew Bennett
 Provided us with assistance testing as well as access to many parts and battery charging devices.
 
-###Silas Huges
-The local quadcopter expert, helping us with everything from buying parts, to stabilization.
+###Silas Hughes
+The local quadcopter expert, helping us with everything from buying parts to stabilization.
 
 ###Adela Wee
 Charged our batteries for us countless times and answered many a question.
