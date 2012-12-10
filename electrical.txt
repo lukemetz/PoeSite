@@ -31,7 +31,7 @@ One of the first roadblocks we encountered with our electrical system was that w
 
 To solve this problem, we asked another Olin professor, Dr. Drew Bennett, for advice. He has a lot of experience with RC controlled aircraft, and he was able to give us connectors from the battery terminals and an idea of how to properly split the power. We ended up soldering thick, high amperage to the battery terminal connectors and then soldering each of the motor speed controllers and the BEC into that wire along its length so that each would be soldered well and each solder joint would only be connecting two things.
 
-![Power Wiring](%base_url%/content/PowerSplitting.jpg "Power Splitting Solution")
+![Power Wiring](%base_url%/content/Photos/powersplitting.jpg "Power Splitting Solution")
 
 ###Creating a Switch
 A key function that had to be present on our quadcopter was the ability to switch between RC control and Raspberry Pi control quickly and easily using a switch on the RC controller. This is not only for our own safety when testing the quadcopter, but it is also required by law that autonomous air vehicles have a way to take control remotely.
@@ -42,15 +42,15 @@ We first attempted to use a single pull double push DG189BP JFET switch, because
 
 The quad 2-input multiplexer switch did exactly what we wanted it to do; it took in two sets of four inputs and chose which set of four were output to the flight control board based on whether one node was given a high or low voltage.
 
-![Switch](%base_url%/content/circuit.jpeg "Final Switch Circuit")
+![Switch](%base_url%/content/Photos/circuit.jpeg "Final Switch Circuit")
 
 ### Converting PWM Signal to Voltage
 Next we had to figure out how to convert the variable PWM signal that was output from the RC receiver into a large change in voltage so that we could use one of the switches on the RC controller with the quad 2-input multiplexer switch. To do this we used a low pass filter to flatten the signal into a mostly flat line that moved between about 250mV and about 350mV when the switch on the RC controller was flipped. After that we used a Schmitt trigger to amplify this difference into a change between 0V and 5V using an operational amplifier with a carefully selected negative input voltage. The output of this could then be used to control the quad 2-input multiplexer.
 
 ## Electrical Schematic
 
-![](%base_url%/content/schmitttriggerschematic.jpg "Schmitt Trigger")
+![](%base_url%/content/Photos/schmitttriggerschematic.jpg "Schmitt Trigger")
 This is a schematic of the Schmitt trigger we used to flatten the PWM signal from the RC receiver and change it to a 0 to 5V change.
 
-![](%base_url%/content/electricalschematic.jpg "Schmitt Trigger")
+![](%base_url%/content/Photos/electricalschematic.jpg "Schmitt Trigger")
 This is the overall circuit schematic showing how everything is connected in our electrical system.
