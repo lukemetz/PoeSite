@@ -36,7 +36,7 @@ Prototyping
 A main goal in our design was to be able to quickly prototype our quadcopter. During the course of the project we made 3 different frames.
 
 ###Prototype 1
-The first prototype was a proof of concept for cardboard based construction. It was missing a number of important features such as legs, motor mounts, battery mount and it did not have enough space for electronics. From this prototype we learned that cardboard was quite strong and that our initial arm design was going to work and provided enough strength. Using this prototype, we found that we could bolt our motors directly into the cardboard.
+The first prototype was a proof of concept for cardboard based construction. It was missing a number of important features such as legs, motor mounts, battery mount and space for all electronics. From this prototype we learned that cardboard was quite strong and that our initial arm design was going to work and provided enough strength. We also used this prototype to experiment with mounting the motors and learned that we could bolt our motors directly into the cardboard.
 
 ![](%base_url%/content/prototype1.jpg "The first prototype")
 
