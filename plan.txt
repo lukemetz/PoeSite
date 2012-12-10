@@ -3,8 +3,8 @@ Title: The Plan
 Description: Our original goals for the project
 */
 
-The Plan
-=======
+The Process
+===========
 
 Goals
 ------
@@ -39,8 +39,8 @@ Our team feels like it was a great experience. It was a lot of work, but very re
 
 The other thing nobody in our group really realized was how dangerous our quadcopter is. These motors are incredibly high power, each one uses 150-200 watts. This means our total power usage is over a half a horse power. To top it all off, all of this power is concentrated in one hard to control, hard to turn off object. This fear became incredibly evident after the our crash. We discovered that there is what we would call a bug in the control software we where using where if the receiver receives no signal, all of the motors turn. With the trashing that ensued, our RC receiver's wires got cut and we were forced to wait while our propellers broke off and it was safe to approach and unplug. This really enforced the need for safety when testing our quadcopter such as always having it tethered, testing far away from people, and ensuring that all team members wore safety glasses.
 
-Materials
----------
+Materials Used
+--------------
 
 ### On-Board ###
 
@@ -149,7 +149,7 @@ RC Transmitter from Drew Bennett, 1x
 
 
 Estimated Cost
-==============
+--------------
 /*
 14.56*4+11.90*4+2*4+12.99+9.99+1.99+26.72+3.77+1.65+2.99*2+3.64+1.59*2+25+12.74+13.06 +11.52 + 3.09= 249.16
 
