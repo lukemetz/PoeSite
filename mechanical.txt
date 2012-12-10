@@ -11,8 +11,7 @@ Material
 --------
 We chose to make our quadcopter out of corrugated cardboard. We chose to use cardboard because it is a cheap, lightweight material. Because we are using cardboard, we decided to employ a lasercutter to cut out our frame. With these two technologies we can easily iterate and prototype our frame design. 
 
-The one downfall to corrugated cardboard is its strength. In certain directions, with the corrugations, cardboard is incredibly weak. In the other directions though it is quite strong. When designing parts we constantly have to think about this.
-
+The one downfall to corrugated cardboard is its strength. In certain directions, with the corrugations, cardboard is incredibly weak. In the other directions though it is surprisingly strong. When designing parts we constantly have to think about this.
 
 Frame Design
 ------------
@@ -41,3 +40,4 @@ Our second prototype was fully functional design. It was capable of taking off, 
 
 ###Prototype 3
 Our final prototype was made in less than one day. With design already done, we got parts cut and assembled it with 2 people over the course of 5 hours. This prototype is what we are currently using for our ground and air testing.
+
