@@ -16,7 +16,7 @@ The one downfall to corrugated cardboard is its strength. In certain directions,
 Frame Design
 ------------
 
-The frame consists of three sections: a center base for the control board and other electronics, four arms, and a motor mounting box at the end of each arm. We have built two prototypes for our frame. The first one was experimental and lacked many of the necessary components as well as having some issues. The changes we made included making the cardboard slots smaller (we originally measured cardboard to be 5mm, but by going back and measuring realized that it was actually 4.1mm thick), that we needed a solid cardboard sheet with guide holes to mount the motors, adding slots for the wiring to run through, adding legs, and adding additional shelves for electronics.
+The frame consists of three sections: a center base for the control board and other electronics, four arms, and a motor mounting box at the end of each arm. We have built two prototypes for our frame. The first one was experimental and lacked many of the necessary components as well as having some issues. The changes we made included making the cardboard slots smaller (we originally measured cardboard to be 5mm, but by going back and measuring realized that it was actually 4.1mm thick), that we needed a solid cardboard sheet with guide holes to mount the motors, adding slots for the wiring to run through, adding legs, and adding additional shelves for electronics. For a copy of our cad, see [our github](https://github.com/lukemetz/PiQuopter-Cad).
 
 ![](%base_url%/content/framePicture.JPG "The full cad of the quadcopter")
 
