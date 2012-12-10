@@ -20,7 +20,7 @@ Additionally, we are using a small battery voltage monitor to detect when the ba
 ### RC Control and Override
 In addition to having autonomous control, we have RC control and RC override. We have mounted an RC receiver on our quadcopter and implemented a switch that allows us to use an RC controller to pilot our quadcopter at any point when the system is running. This allows us to test basic functionality such as turning and hovering and stabilize our quadcopter without having to write the autonomy for simple testing. It also enables us to take back control at any point if we believe the the quadcopter is doing something dangerous while it is autonomous.
 
-![RC Receiver](%base_url%/content/RCcontrol.jpeg "Onboard RC Receiver")
+![RC Receiver](%base_url%/content/Photos/rccontrol.jpeg "Onboard RC Receiver")
 
 
 ##Problems Encountered
