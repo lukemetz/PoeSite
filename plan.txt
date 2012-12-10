@@ -45,31 +45,31 @@ Materials Used
 
 ### On-Board ###
 
-Cardboard from the recycling bin,
+**Cardboard from the recycling bin,**
   the sheet we we used was 32"x20" with a thickness off around 4.1mm. A large clean box should do.
 
-Motors from Hobby King, 4x + Propeller clamps,
+**Motors from Hobby King, 4x + Propeller clamps,**
 	we used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbyking.com/hobbyking/store/__18225__Turnigy_D3530_14_1100KV_Brushless_Outrunner_Motor.html) at $14.56 each. Our motors also came with propeller clamps which allowed us to easily connect our propellers to the motors.
 
-Electronic Speed Controllers (ESC) from Hobby King, 4x,
+**Electronic Speed Controllers (ESC) from Hobby King, 4x,**
 	we used [TURNIGY Plush 18 amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__4312__TURNIGY_Plush_18amp_Speed_Controller.html) at $11.90 each.
 
-Propellers from GWS props, 2x counter clock wise rotating, 2x clockwise
+**Propellers from GWS props, 2x counter clock wise rotating, 2x clockwise **
 	we used [3 bladed 8x4x3 GWS props](http://www.gwsprops.com/3_blade_props.htm) at $2.00 each.
 
-Flight Controller from Hobby King, 1x
+**Flight Controller from Hobby King, 1x**
 	We used [HobbyKing Multi-Rotor Control Board V2.1](http://www.hobbyking.com/hobbyking/store/__19534__HobbyKing_Multi_Rotor_Control_Board_V2_1_Atmega168PA_.html) at $12.99
 
-Flight Controller Mounting Pads from Hobby King,
+**Flight Controller Mounting Pads from Hobby King,**
 	We got a pack of [Gyro / Flight Controller Mounting Pad](http://www.hobbyking.com/hobbyking/store/__15214__Gyro_Flight_Controller_Mounting_Pad_10pcs_bag_.html) at $1.99 but one can also use double sided tape.
 
-RC Receiver from amazon.com, 1x,
+**RC Receiver from amazon.com, 1x,**
 	We got a [CSRC-RX3000 Spektrum DSM2 Compatible 2.4Ghz 6-Ch Receiver](http://www.amazon.com/gp/product/B005M2YJYO/ref=oh_details_o03_s00_i00) on sale for $9.99. Any 5 or more channel receiver will do though.
 
-Foam block from Silas, 4x 2 inch by 4 inch chunks,
+**Foam block from Silas, 4x 2 inch by 4 inch chunks,**
 	Used for a more durable landing.
 
-Cyanoacrylate based glue from personal stock and Harvey's Hardware,
+**Cyanoacrylate based glue from personal stock and Harvey's Hardware,**
 	Anything will work, the thicker the glue, the easier it is to work with. We used something along the lines of [this](http://www.hobbyking.com/hobbyking/store/__8675__Insta_Cure_Plus_Gap_Filling_CA_1_2_oz.html).
 
 Tape from class stock,
