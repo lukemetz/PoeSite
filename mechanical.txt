@@ -49,7 +49,4 @@ Our second prototype was fully functional design. It was capable of taking off, 
 ###Prototype 3
 Our final prototype was made in less than one day. With design already done, we got parts cut and assembled it with 2 people over the course of 5 hours. This prototype is what we are currently using for our ground and air testing.
 
-<<<<<<< HEAD
 ![](%base_url%/content/prototype3.jpg "The final prototype")
-=======
->>>>>>> 2e5fd3e009c8b59fa04f5e6e5e9640054c3a8df2
