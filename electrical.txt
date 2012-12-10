@@ -49,8 +49,8 @@ Next we had to figure out how to convert the variable PWM signal that was output
 
 ## Electrical Schematic
 
-![](%base_url%/content/photos/schmitttriggerschematic.jpg "Schmitt Trigger")
+[![](%base_url%/content/photos/schmitttriggerschematic.jpg "Schmitt Trigger")](%base_url%/content/photos/schmitttriggerschematic.jpg)
 This is a schematic of the Schmitt trigger we used to flatten the PWM signal from the RC receiver and change it to a 0 to 5V change.
 
-![](%base_url%/content/photos/electricalschematic.jpg "Schmitt Trigger")
+[![](%base_url%/content/photos/electricalschematic.jpg "Schmitt Trigger")](%base_url%/content/photos/electricalschematic.jpg)
 This is the overall circuit schematic showing how everything is connected in our electrical system.
