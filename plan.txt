@@ -59,7 +59,7 @@ We used [Turnigy D3530/14 1100KV Brushless Outrunner Motor]( http://www.hobbykin
 
 We used [TURNIGY Plush 18 amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__4312__TURNIGY_Plush_18amp_Speed_Controller.html) at $11.90 each.
 
-**Propellers** from GWS props, 2x counter clock wise rotating, 2x clockwise 
+**Propellers** from GWS props, 2x counterclockwise rotating, 2x clockwise 
 
 We used [3 bladed 8x4x3 GWS props](http://www.gwsprops.com/3_blade_props.htm) at $2.00 each.
 
@@ -85,7 +85,7 @@ Anything will work, the thicker the glue, the easier it is to work with. We used
 
 **Tape from class stock,**
 
-We used duck tape to for the mounting of the foam landing pads as well as for low force attachment of electronics.
+We used duct tape to for the mounting of the foam landing pads as well as for low force attachment of electronics.
 
 **Nuts and bolts** from the MechE stockroom, 16x sets of 1 nut and 1 bolt,
 
@@ -158,7 +158,7 @@ Really any usb webcam with linux support will work. We used [Microsoft-LifeCam-V
 
 **Wifi Card** from amazon.com, 1x,
 
-Any linux supported wifi card should work. We used [http://www.amazon.com/gp/product/B003X26PMO/ref=oh_details_o02_s00_i00] at $13.06.
+Any linux supported wifi card should work. We used [this card] (http://www.amazon.com/gp/product/B003X26PMO/ref=oh_details_o02_s00_i00) at $13.06.
 
 **SD Card** from Luke, 1x,
 
@@ -212,9 +212,9 @@ $13.06
 $253.15
 
 */
-The minimum need parts assuming you have an avr programmer and an rc receiver and batter charger is: $253.15 not counting shipping. When adding in shipping ($50 from hobby king) and small electrical components, one should be able to assemble a quad copter for under $310.
+The minimum need parts assuming you have an AVR programmer and an RC receiver and battery charger is: $253.15 not counting shipping. When adding in shipping ($50 from Hobby King) and small electrical components, one should be able to assemble a quadcopter for under $310.
 
-For parts that we are using and have purchased for this project specifically, our final total is $200.74 plus $44.69 of shipping gives a grand total of $245.43.
+For parts that we are using and have purchased for this project specifically, our final total is $200.74 plus $44.69 of shipping, which gives a grand total of $245.43.
 
 /*
 14.56*4
@@ -232,4 +232,4 @@ For parts that we are using and have purchased for this project specifically, ou
 
 14.56*4 + 11.90*4 + 2*4 + 12.99 + 1.99 + 9.99 + 26.72 + 3.99 + 3.77 + 1.65 + 12.74 + 13.06 =  200.74
 */
-In our testing, we found that parts break and its nice to have backups, thus we would suggest getting another motor and speed controller, more Servo Connectors, 2 more complete sets of props, a spare battery as well as lots of extra cardboard.
+In our testing, we found that parts break and it's nice to have backups, thus we would suggest getting another motor and speed controller, more servo connectors, 2 more complete sets of props, and a spare battery, as well as lots of extra cardboard.
