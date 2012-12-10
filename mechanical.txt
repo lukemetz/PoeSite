@@ -19,7 +19,7 @@ Frame Design
 
 The frame consists of three sections: a center base for the control board and other electronics, four arms, and a motor mounting box at the end of each arm. We have built two prototypes for our frame. The first one was experimental and lacked many of the necessary components as well as having some issues. The changes we made included making the cardboard slots smaller (we originally measured cardboard to be 5mm, but by going back and measuring realized that it was actually 4.1mm thick), that we needed a solid cardboard sheet with guide holes to mount the motors, adding slots for the wiring to run through, adding legs, and adding additional shelves for electronics.
 
-![](%base_url%/content/prototype2.JPG "The full assembled quadcopter")
+![](%base_url%/content/framePicture.JPG "The full cad of the quadcopter")
 
 Props
 -----
@@ -29,6 +29,9 @@ We have wire frames coming out of the cardboard arms of the quadcopter that are 
 
 We are attaching the props to the quadcopter using screw clamp that is tightened by tightening a nut. Originally, we press fit these, but realized that press fits have a lot of drawbacks including strength and ability to remove, so we decided to use the screw clamps instead.
 
+![](%base_url%/content/propMount.JPG "The propellor mounting mechanism")
+
+
 Prototyping
 -----------
 A main goal in our design was to be able to quickly prototype our quadcopter. During the course of the project we made 3 different frames.
@@ -36,8 +39,15 @@ A main goal in our design was to be able to quickly prototype our quadcopter. Du
 ###Prototype 1
 The first prototype was a proof of concept for cardboard based construction. It was missing a number of important features such as legs, motor mounts, battery mount and it did not have enough space for electronics. From this prototype we learned that cardboard was quite strong and that our initial arm design was going to work and provided enough strength. Using this prototype, we found that we could bolt our motors directly into the cardboard.
 
+![](%base_url%/content/prototype1.jpg "The first prototype")
+
 ###Prototype 2
 Our second prototype was fully functional design. It was capable of taking off, and landing reasonably well. When constructing this prototype we learned that we needed far better material for landing gear, as well as something to protect the propeller blades from hitting the ground. To solve these issues, we added foam landing pads to the feet, and bent wire to serve as prop guards. This was going to be our final prototype until it crashed. The crash showed us that all of our previous judgments where valid. Despite the copters violent thrashing, most of the frame was intact, and motors stayed bolted to the cardboard.
 
+![](%base_url%/content/prototype2.jpg "The second prototype")
+
+
 ###Prototype 3
 Our final prototype was made in less than one day. With design already done, we got parts cut and assembled it with 2 people over the course of 5 hours. This prototype is what we are currently using for our ground and air testing.
+
+![](%base_url%/content/prototype3.jpg "The final prototype")
