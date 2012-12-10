@@ -7,7 +7,7 @@ We will mount a small, lightweight web cam on our quadcopter that will allow us 
 
 Rasberry Pi
 -----------
-The main computation for our project takes place on a Rasberry Pi. This device is a small computer. It has 256 mb of ram and can be over-clocked to run at 1 GHz.
+The main computation for our project takes place on a Raspberry Pi. This device is a small computer. It has 256 mb of ram and can be over-clocked to run at 1 GHz.
 
 In its current form our Pi is running Raspbian, a distribution of linux based off of Debian.
 
@@ -16,7 +16,7 @@ Our Pi will have a number of usb devices attached to it. The first is a wifi rec
 OpenCV
 ------
 
-Our rasperry pi runs a program that we wrote to control the copter to perform different actions. This program uses OpenCV, a open source image processing library, to take input from the webcam and react.
+Our raspberry pi runs a program that we wrote to control the copter to perform different actions. This program uses OpenCV, a open source image processing library, to take input from the webcam and react.
 
 Our first step in creating this program is to track QR code like images. These images will always be rectangular. Using OpenCV, we can locate our image inside the frame captured from the webcam.
 

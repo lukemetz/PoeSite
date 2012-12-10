@@ -23,7 +23,7 @@ The frame consists of three sections: a center base for the control board and ot
 
 Props
 -----
-We have four 8 inch, three-blade props with 4 inch pitch. There will be two counter-rotating and two regularly rotating props. This will balance out the rotation of the copter. We got these specific props because of their low pitch and because they have three blades, which maximes our lift, and are optimized for helicopter-like vehicles.
+We have four 8 inch, three-blade props with 4 inch pitch. There will be two counter-rotating and two regularly rotating props. This will balance out the rotation of the copter. We got these specific props because of their low pitch and because they have three blades, which maximizes our lift, and are optimized for helicopter-like vehicles.
 
 We have wire frames coming out of the cardboard arms of the quadcopter that are bent around the outside of the propellors to make our quadcopter both more durable if it runs into walls or other objects, and as a safety feature for those in the vicinity when the quadcopter is flying.
 
