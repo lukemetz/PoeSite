@@ -12,9 +12,15 @@ Test your code! When writing image based autonomous code, its generally a good i
 
 Programming Flight Controller and ESC's
 =======================================
-The first thing we did when we got out flight controller was to reprogram it to use the kapteinkuk xcopter kk firmware. To do this, we used the [kkMulticopter Flashtool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool).
+The first thing we did when we got out flight controller was to reprogram it to use the kapteinkuk xcopter kk firmware. To do this, we used the [kkMulticopter Flashtool](http://lazyzero.de/en/modellbau/kkmulticopterflashtool). We went with the xwing configuration because we have a camera on board. The camera look forward if it is placed between two arms and not have to look through propeller blades.
 
-We then programmed the ESC's by
+To finish setting up the flight controller, follow the kk Quad x setup guide located at http://rcexplorer.se/educational/2011/02/kk-quad-x-setup-guide/. This guide walks you through testing and configuring the ESC and the flight controller.
+
+Attach the Top Layer of Electronics
+Bind the Transmitter to The RC Receiver
+Use the manual that came with your RC transmitter and receiver for this task.
+
+We used the anti-vibration mounting tape to secure the remaining electronics, but anything will do.
 
 Tunning and Stabilization
 =========================
@@ -23,3 +29,9 @@ Tunning our quad copter was quite difficult for us. To begin with, we neutral th
 Once the copter is more or less level, use the first pot to adjust roll and pitch gains and then tune the 3rd pot until the copter flies straight.
 
 Once you have configured your quadcopter, you are going to want to scope the output of the RC receiver such that you can emulate the tunning in the autonomous code.
+
+While doing this step, we strongly recommend you tie down your quadcopter to prevent it from getting out of control.
+This is an autonomous cardboard quadcopter driven by a Raspberry Pi. It is capable of wireless communication as well as well as real time image processing via camera.
+
+Add on Propeller guards
+We first bent thick wire into a U shape and inserted into the quadcopter frame. We chose to use hot glue for this due to its thickness.
